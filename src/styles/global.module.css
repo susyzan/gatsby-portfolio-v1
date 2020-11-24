@@ -22,9 +22,9 @@
   --gainsboro: hsl(0, 0%, 87%);
   --brink-pink: hsl(346, 91%, 65%);
   --cornsilk: hsl(48, 100%, 95%);
-  --cornsilk-alpha: hsla(49, 100%, 95%, .98);
+  --cornsilk-alpha: hsla(49, 100%, 95%, .5);
   --middle-blue-green: hsl(173, 55%, 74%);
-  --middle-blue-green--alpha: hsla(173, 55%, 74%, .98);
+  --middle-blue-green--alpha: hsla(173, 55%, 74%, .5);
   --independence: hsl(258, 10%, 38%);
 
   /* Grays */
@@ -42,13 +42,12 @@
   --tertiary: var(--independence);
   --quarternary: var(--cornsilk);
   --bg-primary: var(--white);
-  --bg-primary-alpha: var(--cultured-alpha);
   --bg-secondary: var(--independence);
   --bg-tertiary: var(--cornsilk);
   --text: var(--darkest-gray);
   --focus-outline: var(--brink-pink);
 
-  --bg-gradient: linear-gradient(45deg, var(--middle-blue-green--alpha) 0%, var(--cornsilk-alpha) 100%);
+  --bg-gradient: linear-gradient(45deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 84%, .5) 100%);
 
   --mod-light: 96%;
   --mod-medium: 50%;

@@ -8,11 +8,25 @@
     flex-wrap: wrap;
     margin: 0;
     padding: .5rem 1rem;
+    background-color: hsla(0, 0%, 100%, .4);
+    color: var(--primary-font);
+    font-weight: bold;
+    border: solid 1px var(--brink-pink);
+    transform: skew(30deg);
 }
 
 .navigation li {
     margin: 0 0.5rem;
     list-style-type: none;
+    transform: skew(-30deg);
+}
+
+.navigation ul:hover {
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    background-color: hsla(0, 0%, 100%, .8);
 }
 
 .navigation a {
@@ -20,7 +34,7 @@
     text-transform: uppercase;
     line-height: 1.7;
     color: inherit;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .navigation a:hover {

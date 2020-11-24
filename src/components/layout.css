@@ -6,7 +6,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  background-color: var(--main-bg-light);
+  background-color: var(--bg-primary);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
