@@ -18,6 +18,7 @@
 
   /* Colours */
   --cultured: hsl(0, 0%, 96%);
+  --cultured-alpha: hsla(0, 0%, 96%, .95);
   --gainsboro: hsl(0, 0%, 87%);
   --brink-pink: hsl(346, 91%, 65%);
   --cornsilk: hsl(49, 100%, 95%);
@@ -35,6 +36,7 @@
 
   /* Theme */
   --bg-primary: var(--cultured);
+  --bg-primary-alpha: var(--cultured-alpha);
   --primary: var(--brink-pink);
   --secondary: var(--middle-blue-green);
   --tertiary: var(--independence);

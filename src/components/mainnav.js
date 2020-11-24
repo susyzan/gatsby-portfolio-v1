@@ -9,7 +9,7 @@ const MainNav = ({ menuLinks }) => {
             <ul>
                 {menuLinks.map(props => (
                     <li key={props.name}>
-                        <Link to={props.link}>{props.name}</Link>
+                        <Link to={props.link} className="anim" activeClassName="active">{props.name}</Link>
                     </li>
                 ))}
             </ul>

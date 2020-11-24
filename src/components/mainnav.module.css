@@ -17,14 +17,14 @@
 
 .navigation a {
     display: block;
-    line-height: 2;
-    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.7;
     color: inherit;
-    font-size: 110%;
+    font-size: 90%;
 }
 
 .navigation a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media screen and (--viewport-narrow-min) {

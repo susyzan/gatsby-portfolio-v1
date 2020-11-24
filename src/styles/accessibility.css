@@ -40,18 +40,18 @@
 }
 
 /*Focus*/
-body *:focus {
-	outline-color: var(--brink-pink) !important;
-	outline-offset: -3px;
-	outline-style: solid;
-	outline-width: 3px;
-	/*outline: 2px solid #EEC643 !important; !* for non-webkit browsers *!*/
-	/*outline: 5px auto -webkit-focus-ring-color !important;*/
-}
-.header a:focus,
-.header nav .navbar-nav .nav-link:focus {
-	outline: none;
-	background-color: var(--brink-pink) !important;
-	border-color: var(--brink-pink) !important;
-	color: var(--rich-black);
-}
+/*body *:focus {*/
+/*	outline-color: var(--brink-pink) !important;*/
+/*	outline-offset: -3px;*/
+/*	outline-style: solid;*/
+/*	outline-width: 3px;*/
+/*	!*outline: 2px solid #EEC643 !important; !* for non-webkit browsers *!*!*/
+/*	!*outline: 5px auto -webkit-focus-ring-color !important;*!*/
+/*}*/
+/*.header a:focus,*/
+/*.header nav .navbar-nav .nav-link:focus {*/
+/*	outline: none;*/
+/*	background-color: var(--brink-pink) !important;*/
+/*	border-color: var(--brink-pink) !important;*/
+/*	color: var(--rich-black);*/
+/*}*/
