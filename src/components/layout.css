@@ -37,6 +37,9 @@ main {
   margin: 0;
   padding: 0;
 }
+main>div {
+  display: contents;
+}
 footer {
   grid-area: footer;
 }

@@ -6,6 +6,7 @@ import Header from "./header"
 import SkipLinks from "./skiplinks"
 import Footer from "./footer"
 import "./layout.css"
+import PageTransition from "gatsby-v2-plugin-page-transitions";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +29,6 @@ const Layout = ({ children }) => {
   return (
     <>
         <SkipLinks/>
-
             <Header
                 siteTitle={data.site.siteMetadata.title}
                 headerTitleSm={data.site.siteMetadata.headerTitleSm}
@@ -38,7 +38,9 @@ const Layout = ({ children }) => {
             />
             <div className="main-wrapper">
                 <main id="main">
-                    {children}
+                    <PageTransition>
+                        {children}
+                    </PageTransition>
                 </main>
                 <Footer />
             </div>
