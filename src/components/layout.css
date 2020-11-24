@@ -23,6 +23,12 @@ body {
   display: grid;
 }
 
+.content-container {
+  max-width: var(--content-w-regular);
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
 article,
 aside,
 details,
@@ -114,6 +120,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  color: var(--brink-pink);
 }
 mark {
   background-color: #ff0;

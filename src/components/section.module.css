@@ -1,0 +1,20 @@
+.section {
+    padding: 2rem 0;
+    height: 100vh;
+    max-height: 40rem;
+}
+.bg_primary {
+    background-color: var(--bg-primary);
+}
+.bg_primary_alpha {
+    background-color: var(--bg-primary);
+}
+.bg_secondary {
+    background-color: var(--bg-secondary);
+}
+.bg_tertiary {
+    background-color: var(--bg-tertiary);
+}
+.bg_gradient {
+    background: var(--bg-gradient);
+}

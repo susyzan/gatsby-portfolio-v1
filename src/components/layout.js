@@ -27,21 +27,22 @@ const Layout = ({ children }) => {
   return (
     <>
       <SkipLinks/>
-      <Header
-          siteTitle={data.site.siteMetadata.title}
-          headerTitleSm={data.site.siteMetadata.headerTitleSm}
-          headerTitle={data.site.siteMetadata.headerTitle}
-          headerDescription={data.site.siteMetadata.headerDescription}
-          menuLinks={data.site.siteMetadata.menuLinks}
-      />
-      <div
-        style={{
-          margin: `80px auto 0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
+        <Header
+            siteTitle={data.site.siteMetadata.title}
+            headerTitleSm={data.site.siteMetadata.headerTitleSm}
+            headerTitle={data.site.siteMetadata.headerTitle}
+            headerDescription={data.site.siteMetadata.headerDescription}
+            menuLinks={data.site.siteMetadata.menuLinks}
+        />
+        <div
+          style={{
+            margin: `0`,
+            padding: `60px 0 1.45rem`
+          }}
+        >
+        <main>
+            {children}
+        </main>
         <footer style={{
           marginTop: `2rem`
         }}>
