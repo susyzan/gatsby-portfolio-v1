@@ -8,7 +8,7 @@
     -webkit-box-shadow: var(--boxShadow);
     -moz-box-shadow: var(--boxShadow);
     box-shadow: var(--boxShadow);
-    background-color: var(--bg-primary-alpha);
+    background-color: var(--white);
 }
 
 .masthead_container {
@@ -62,9 +62,9 @@
         padding: 0;
     }
 
-    .masthead:hover, .masthead:focus {
-        padding: 0.3rem 0;
-    }
+    /*.masthead:hover, .masthead:focus {*/
+    /*    padding: 0.3rem 0;*/
+    /*}*/
 
     .masthead_info a {
         padding: 0.5rem;

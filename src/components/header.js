@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import PropTypes from "prop-types"
 
 import MainNav from "./mainnav"
@@ -9,11 +9,19 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
     <header id="site-header" className={style.masthead} role="banner">
         <div className={`content-container ${style.masthead_container}`}>
             <div className={style.masthead_info}>
-                <Link to="/">
+                <AniLink
+                    paintDrip
+                    to="/"
+                    duration={1}
+                    entry={{
+                        delay: 0.6
+                    }}
+                    hex="#98E1D9"
+                >
                     <div className={style.site_title_sm} aria-label={siteTitle}>{headerTitleSm}</div>
                     <div className={style.site_title}>{headerTitle}</div>
                     <div className={style.site_description}>{headerDescription}</div>
-                </Link>
+                </AniLink>
             </div>
             <MainNav menuLinks={menuLinks}/>
         </div>

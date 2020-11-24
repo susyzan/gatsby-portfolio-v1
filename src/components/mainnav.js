@@ -1,15 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import style from "./mainnav.module.css"
 
 const MainNav = ({ menuLinks }) => {
     return (
-        <nav className={style.navigation}>
+        <nav id="navigation" className={style.navigation}>
             <ul>
                 {menuLinks.map(props => (
                     <li key={props.name}>
-                        <Link to={props.link} className="anim" activeClassName="active">{props.name}</Link>
+                        <AniLink
+                            fade
+                            to={props.link}
+                            duration={1}
+                            className="anim"
+                            activeClassName="active"
+                        >
+                            {props.name}
+                        </AniLink>
                     </li>
                 ))}
             </ul>

@@ -40,10 +40,10 @@ const Layout = ({ children }) => {
             padding: `60px 0 1.45rem`
           }}
         >
-        <main>
+        <main id="main">
             {children}
         </main>
-        <footer style={{
+        <footer id="footer" style={{
           marginTop: `2rem`
         }}>
           © {new Date().getFullYear()}, Built with

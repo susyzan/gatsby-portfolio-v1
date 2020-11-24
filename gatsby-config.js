@@ -9,15 +9,15 @@ module.exports = {
     menuLinks: [
       {
         name: `Work`,
-        link: `/#work`,
+        link: `/work`,
       },
       {
         name: `About`,
-        link: `/#about`,
+        link: `/about`,
       },
       {
         name: `Contact`,
-        link: `/#contact`,
+        link: `/contact`,
       },
     ],
   },
@@ -35,6 +35,13 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-css-customs`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-transition-link`,
+    {
+      resolve: 'gatsby-v2-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

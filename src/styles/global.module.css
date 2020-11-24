@@ -21,7 +21,7 @@
   --cultured-alpha: hsla(0, 0%, 96%, .95);
   --gainsboro: hsl(0, 0%, 87%);
   --brink-pink: hsl(346, 91%, 65%);
-  --cornsilk: hsl(49, 100%, 95%);
+  --cornsilk: hsl(48, 100%, 95%);
   --cornsilk-alpha: hsla(49, 100%, 95%, .98);
   --middle-blue-green: hsl(173, 55%, 74%);
   --middle-blue-green--alpha: hsla(173, 55%, 74%, .98);
@@ -57,7 +57,7 @@
   --main-bg-medium: hsl(0, 0%, var(--mod-medium));
   --main-bg-dark: hsl(0, 0%, var(--mod-dark));
 
-  --boxShadow: 0px 1px 3px 0px rgba(0,0,0,0.04);
+  --boxShadow: 0px 1px 1px 0px rgba(0,0,0,0.03);
   --padding: 1rem;
 
   /* Sizes and widths */
