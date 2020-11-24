@@ -1,0 +1,63 @@
+:root {
+  /* Fonts */
+  --sans-serif: 'Raleway', Helvetica, Arial, sans-serif;
+  --serif: 'Playfair Display', serif;
+  --primary-font: var(--sans-serif);
+  --highlight-font: var(--serif);
+  --body-font: var(--primary-font);
+  --heading-font: var(--highlight-font);
+
+  --font-light: 300;
+  --font-normal: 400;
+  --font-semibold: 500;
+  --font-bold: 700;
+  --font-black: 800;
+
+  --base-font-size: 1rem;
+  --base-line-height: 1.5;
+
+  /* Colours */
+  --cultured: hsl(0, 0%, 96%);
+  --gainsboro: hsl(0, 0%, 87%);
+  --brink-pink: hsl(346, 91%, 65%);
+  --cornsilk: hsl(49, 100%, 95%);
+  --middle-blue-green: hsl(173, 55%, 74%);
+  --independence: hsl(258, 10%, 38%);
+
+  /* Grays */
+  --white: 	hsl(0, 0%, 100%);
+  --light-gray: var(--cultured);
+  --mid-gray: 	hsl(0, 0%, 76%);
+  --dark-gray: hsl(0, 0%, 52%);
+  --darkest-gray: hsl(0, 0%, 8%);
+  --rich-black: var(--darkest-gray);
+  --black: hsl(0, 0%, 0%);
+
+  /* Theme */
+  --bg-primary: var(--cultured);
+  --primary: var(--brink-pink);
+  --secondary: var(--middle-blue-green);
+  --tertiary: var(--independence);
+  --text: var(--darkest-gray);
+  --focus-outline: var(--brink-pink);
+
+  --mod-light: 96%;
+  --mod-medium: 50%;
+  --mod-dark: 20%;
+  --main-bg-light: hsl(0, 0%, var(--mod-light));
+  --main-bg-medium: hsl(0, 0%, var(--mod-medium));
+  --main-bg-dark: hsl(0, 0%, var(--mod-dark));
+
+  --boxShadow: 0px 1px 3px 0px rgba(0,0,0,0.04);
+  --padding: 1rem;
+
+  /* Sizes and widths */
+  --content-w-wide: 80rem;
+  --content-w-regular: 60rem;
+  --content-w-narrow: 40rem;
+
+}
+
+@custom-media --viewport-narrow-max (max-width: 40rem);
+@custom-media --viewport-narrow-min (min-width: 40rem);
+@custom-media --viewport-wide (min-width: 60rem);

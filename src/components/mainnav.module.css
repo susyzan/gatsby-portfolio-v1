@@ -1,0 +1,46 @@
+.navigation {
+    grid-area: nav;
+    padding: 0.5rem;
+}
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: .5rem 1rem;
+}
+
+.navigation li {
+    margin: 0 0.5rem;
+    list-style-type: none;
+}
+
+.navigation a {
+    display: block;
+    line-height: 2;
+    text-decoration: none;
+    color: inherit;
+    font-size: 110%;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 0.5rem;
+    }
+
+    .navigation ul {
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        margin-right: 0;
+        margin-left: 2rem;
+    }
+}
