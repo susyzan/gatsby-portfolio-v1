@@ -2,6 +2,8 @@
     padding: 2rem 0;
     height: 100vh;
     max-height: 40rem;
+    display: grid;
+    overflow: hidden;
 }
 .bg_primary {
     background-color: var(--bg-primary);

@@ -1,4 +1,5 @@
 import React from "react"
+import FloatingShapes from "./floatingshapes";
 
 import styles from "./homebanner.module.css"
 
@@ -14,6 +15,7 @@ const HomeBanner = () => {
                 {/*    <Image />*/}
                 {/*</div>*/}
             </div>
+            <FloatingShapes/>
         </div>
     )
 }

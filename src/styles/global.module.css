@@ -47,7 +47,8 @@
   --text: var(--darkest-gray);
   --focus-outline: var(--brink-pink);
 
-  --bg-gradient: linear-gradient(45deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 84%, .5) 100%);
+  --bg-gradient: linear-gradient(0deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 87%, .5) 100%);
+  --shape-gradient: linear-gradient(45deg, hsla(172, 56%, 80%, .5) 0%, hsla(172, 56%, 95%, .5) 100%);
 
   --mod-light: 96%;
   --mod-medium: 50%;

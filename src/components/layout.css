@@ -24,9 +24,12 @@ body {
 }
 
 .content-container {
+  width: 100%;
   max-width: var(--content-w-regular);
   padding: 0 1rem;
   margin: 0 auto;
+  position: relative;
+  display: grid;
 }
 
 article,
