@@ -6,7 +6,7 @@ import style from "./mainnav.module.css"
 
 const MainNav = ({ menuLinks }) => {
     return (
-        <nav id="navigation" className={style.navigation}>
+        <nav id="navigation" className={style.navigation} aria-label="Main menu">
             <ul>
                 {menuLinks.map(props => (
                     <li key={props.name}>

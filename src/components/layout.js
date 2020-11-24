@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import SkipLinks from "./skiplinks"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,31 +27,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <SkipLinks/>
-        <Header
-            siteTitle={data.site.siteMetadata.title}
-            headerTitleSm={data.site.siteMetadata.headerTitleSm}
-            headerTitle={data.site.siteMetadata.headerTitle}
-            headerDescription={data.site.siteMetadata.headerDescription}
-            menuLinks={data.site.siteMetadata.menuLinks}
-        />
-        <div
-          style={{
-            margin: `0`,
-            padding: `0 0 1.45rem`
-          }}
-        >
-        <main id="main">
-            {children}
-        </main>
-        <footer id="footer" style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+        <SkipLinks/>
+
+            <Header
+                siteTitle={data.site.siteMetadata.title}
+                headerTitleSm={data.site.siteMetadata.headerTitleSm}
+                headerTitle={data.site.siteMetadata.headerTitle}
+                headerDescription={data.site.siteMetadata.headerDescription}
+                menuLinks={data.site.siteMetadata.menuLinks}
+            />
+            <div className="main-wrapper">
+                <main id="main">
+                    {children}
+                </main>
+                <Footer />
+            </div>
     </>
   )
 }
