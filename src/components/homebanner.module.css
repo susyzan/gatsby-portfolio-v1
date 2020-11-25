@@ -5,7 +5,7 @@
     grid-template-rows: auto;
 }
 .content {
-    padding: 10% 0;
+    padding: 2.5rem 0 0 0;
     text-align: left;
     grid-column: 1 / span 2;
     align-self: center;
@@ -15,6 +15,7 @@
     word-wrap: break-word;
     font-family: var(--highlight-font);
     text-transform: uppercase;
+    margin-right: 1rem;
 }
 .home_banner h1 span {
     display: block;
@@ -24,21 +25,30 @@
 .home_banner h1 span:first-child {
     font-size: 1.8rem;
     color: var(--text);
+    line-height: 1.725;
+    letter-spacing: 1px;
 }
 .home_banner h1 span:nth-child(2) {
-    font-size: 2.3rem;
+    font-size: 1.225rem;
     color: var(--text);
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: .8rem;
 }
 .home_banner h1 span:nth-child(3) {
-    font-size: 6.125rem;
+    font-size: 3.5rem;
+    margin-bottom: .6rem;
+    max-width: 15rem;
 }
 
 .home_banner p span {
-    display: inline-block;
+    display: block;
     font-weight: normal;
     font-family: var(--highlight-font);
     color: var(--text);
     font-size: 1.3rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
 }
 .home_banner p span:first-child {
     color: var(--text);
@@ -47,7 +57,36 @@
     color: var(--primary);
 }
 
+.home_banner p {
+    margin-bottom: 1.5rem;
+}
+
 .banner_image {
     grid-column: 1;
     width: 100%;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .content {
+        padding: 10% 0;
+    }
+    .home_banner h1 {
+        margin-left: 0;
+    }
+    .home_banner h1 span:first-child {
+        font-size: 1.8rem;
+    }
+    .home_banner h1 span:nth-child(2) {
+        font-size: 2.3rem;
+    }
+    .home_banner h1 span:nth-child(3) {
+        font-size: 6.125rem;
+        max-width: unset;
+    }
+
+    .home_banner p span {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        display: inline-block;
+    }
 }

@@ -16,6 +16,7 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
                     entry={{
                         delay: 0.6
                     }}
+                    className={""}
                     // hex="#6689a1"
                     // hex="#774c60"
                     hex="#ff858d"

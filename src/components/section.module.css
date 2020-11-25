@@ -20,17 +20,29 @@
 .bg_image:before {
     content: "";
     position: absolute;
-    right: 0;
+    right: -25%;
     height: 100%;
     width: 100%;
     background-image: url(../../content/images/susie.png);
     background-position-x: right;
-    background-position-y: 5em;
+    background-position-y: 100%;
     background-repeat: no-repeat;
-    /*background-color: var(--middle-blue-green-alpha);*/
-    background-size: 35%;
+    background-size: 70%;
     opacity: .4;
     z-index: 0;
     -webkit-filter: saturate(.8) hue-rotate(170deg) contrast(2.8);
     filter: saturate(.8) hue-rotate(170deg) contrast(2.8);
+}
+
+@media screen and (--viewport-narrow-min) {
+    .bg_image:before {
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-position-x: right;
+        background-position-y: 5em;
+        background-repeat: no-repeat;
+        background-size: 35%;
+        opacity: .4;
+    }
 }

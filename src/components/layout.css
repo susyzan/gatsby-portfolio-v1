@@ -25,10 +25,16 @@ body {
 
 .main-wrapper {
   display: grid;
-  min-height: 100vh;
+  min-height: 85vh;
   grid-template-rows: 1fr auto;
   grid-template-columns: 1fr;
   grid-template-areas: 'main' 'footer';
+}
+
+@media screen and (--viewport-narrow-min) {
+  .main-wrapper {
+    min-height: 100vh;
+  }
 }
 
 main {
@@ -36,7 +42,6 @@ main {
   display: grid;
   margin: 0;
   padding: 0;
-  background: var(--bg-gradient);
 }
 main>div {
   display: contents;
@@ -56,10 +61,17 @@ footer {
 .content-container-xl {
   width: 100%;
   max-width: var(--content-w-wide);
-  padding: 0 1rem;
+  padding: 0;
   margin: 0 auto;
   position: relative;
   display: grid;
+}
+
+@media screen and (--viewport-narrow-min) {
+  .content-container-xl {
+    padding: 0 1rem;
+  }
+
 }
 
 
@@ -107,7 +119,7 @@ a.anim:before {
   position: absolute;
   width: 110%;
   height: 8px;
-  bottom: 0;
+  bottom: 6px;
   left: -5%;
   background-color: var(--primary);
   visibility: hidden;
@@ -119,6 +131,11 @@ a.anim.active:before {
   text-decoration: none;
   visibility: visible;
   transform: scaleX(1);
+}
+@media screen and (--viewport-narrow-min) {
+  a.anim:before {
+    bottom: 3px;
+  }
 }
 
 a:active,

@@ -1,6 +1,6 @@
 .navigation {
     grid-area: nav;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 .navigation ul {
     position: relative;
@@ -8,13 +8,13 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     margin: 0;
-    padding: .5rem 1rem;
+    padding: 0;
     color: var(--primary-font);
     background-color: var(--bg-primary-alpha);
 }
 
 .navigation li {
-    margin: 0 0.5rem;
+    margin: 0 0.125rem;
     list-style-type: none;
 }
 
@@ -23,10 +23,11 @@
     text-transform: uppercase;
     line-height: 1.7;
     color: inherit;
-    font-size: var(--small-font-size);
+    font-size: 95%;
     font-weight: 400;
     overflow: hidden;
-    padding: 0.1rem;
+    padding: 0.5rem;
+    margin-left: .225rem;
 
 }
 
@@ -44,6 +45,7 @@
 
     .navigation ul {
         justify-content: flex-end;
+        padding: .5rem 1rem;
     }
 
     .navigation li {
@@ -52,5 +54,6 @@
     }
     .navigation a {
         padding: 0.225rem;
+        font-size: var(--small-font-size);
     }
 }

@@ -131,10 +131,20 @@
     50% {
         transform: translateY(-60vh);
         /*transform: translateY(-60vh) rotate(360deg);*/
-        opacity: .8;
+        opacity: .6;
     }
     0% {
         transform: translateY(-10vh);
         opacity: 0;
+    }
+}
+
+@media screen and (--viewport-narrow-max) {
+    .circles span:nth-child(2),
+    .circles span:nth-child(4),
+    .circles span:nth-child(5),
+    .circles span:nth-child(6),
+    .circles span:nth-child(9) {
+        display: none;
     }
 }
