@@ -21,13 +21,13 @@ const IndexPage = ({data}) => (
             <HomeBanner data={data}/>
             <FloatingShapes/>
         </Section>
-        <Section
-          id="about"
-          bg="bg_primary"
-        >
-          <h2>About me</h2>
-            <p>text</p>
-        </Section>
+        {/*<Section*/}
+        {/*  id="about"*/}
+        {/*  bg="bg_primary"*/}
+        {/*>*/}
+        {/*  <h2>About me</h2>*/}
+        {/*    <p>text</p>*/}
+        {/*</Section>*/}
       </Layout>
 )
 
