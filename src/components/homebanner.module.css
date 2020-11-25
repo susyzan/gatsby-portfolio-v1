@@ -21,14 +21,15 @@
 }
 
 .home_banner h1 span:first-child {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
+    color: var(--text);
 }
 .home_banner h1 span:nth-child(2) {
-    font-size: 4rem;
-    color: var(--independence);
+    font-size: 2.3rem;
+    color: var(--text);
 }
 .home_banner h1 span:nth-child(3) {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
 }
 
 .banner_image {

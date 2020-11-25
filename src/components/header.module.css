@@ -5,8 +5,7 @@
     z-index: 10;
     font-size: 84%;
     text-align: center;
-    border-bottom: solid 1px var(--brink-pink);
-    background-color: hsla(0, 0%, 100%, .85);
+    background-color: transparent;
 }
 
 .masthead_container {
@@ -18,7 +17,7 @@
 .masthead_info {
     grid-area: logo;
     padding: 0.5rem;
-    color: var(--rich-black);
+    color: var(--primary);
     text-align: left;
 }
 
@@ -57,14 +56,6 @@
 @media screen and (--viewport-narrow-min) {
     .masthead {
         padding: 0;
-        -webkit-transition: background-color 0.3s ease-out;
-        -moz-transition: background-color 0.3s ease-out;
-        -o-transition: background-color 0.3s ease-out;
-        transition: background-color 0.5s ease-out;
-    }
-
-    .masthead:hover, .masthead:focus {
-        background-color: hsla(0, 0%, 100%, .98);
     }
 
     .masthead_info a {

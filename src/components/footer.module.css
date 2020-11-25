@@ -1,7 +1,5 @@
 .footer {
-    background-color: var(--cornsilk);
-    color: var(--independence);
-    border-top: 1px solid var(--independence);
+    background-color: transparent;
     font-size: 100%;
     text-align: center;
     display: grid;

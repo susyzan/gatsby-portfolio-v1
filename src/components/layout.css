@@ -10,7 +10,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--text);
   font-family: var(--body-font);
   font-size: var(--base-font-size);
   font-weight: normal;
@@ -47,12 +47,21 @@ footer {
 
 .content-container {
   width: 100%;
+  max-width: var(--content-w-regular);
+  padding: 0 1rem;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+}
+.content-container-xl {
+  width: 100%;
   max-width: var(--content-w-wide);
   padding: 0 1rem;
   margin: 0 auto;
   position: relative;
   display: grid;
 }
+
 
 article,
 aside,

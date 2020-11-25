@@ -7,7 +7,7 @@ import style from "./header.module.css"
 
 const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  menuLinks }) => (
     <header id="site-header" className={style.masthead} role="banner">
-        <div className={`content-container ${style.masthead_container}`}>
+        <div className={`content-container-xl ${style.masthead_container}`}>
             <div className={style.masthead_info}>
                 <AniLink
                     paintDrip
