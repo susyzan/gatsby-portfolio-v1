@@ -47,6 +47,9 @@ module.exports = {
       options: {
         fonts: [
           {
+            family: `Monoton`,
+          },
+          {
             family: `Playfair Display`,
             variants: [`400`, `700`]
           },

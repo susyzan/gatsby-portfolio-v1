@@ -46,7 +46,7 @@ footer {
 
 .content-container {
   width: 100%;
-  max-width: var(--content-w-regular);
+  max-width: var(--content-w-wide);
   padding: 0 1rem;
   margin: 0 auto;
   position: relative;

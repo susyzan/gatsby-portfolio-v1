@@ -12,7 +12,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
       <Layout>
         <SEO title="Susanna Zanatta - Home" />
-            <Section id="banner" bg="bg_gradient">
+            <Section
+                id="banner"
+                bg="bg_image"
+            >
                 <HomeBanner />
             </Section>
       </Layout>

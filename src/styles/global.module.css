@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 :root {
   /* Fonts */
   --sans-serif: 'Raleway', Helvetica, Arial, sans-serif;
   --serif: 'Playfair Display', serif;
+  --mono: 'Monoton', monospace;
   --primary-font: var(--sans-serif);
-  --highlight-font: var(--serif);
+  --highlight-font: var(--mono);
   --body-font: var(--primary-font);
-  --heading-font: var(--highlight-font);
+  --heading-font: var(--sans-serif);
 
   --font-light: 300;
   --font-normal: 400;
@@ -24,7 +26,7 @@
   --cornsilk: hsl(48, 100%, 95%);
   --cornsilk-alpha: hsla(49, 100%, 95%, .5);
   --middle-blue-green: hsl(173, 55%, 74%);
-  --middle-blue-green--alpha: hsla(173, 55%, 74%, .5);
+  --middle-blue-green-alpha: hsla(173, 55%, 74%, .5);
   --independence: hsl(258, 10%, 38%);
 
   /* Grays */
@@ -37,18 +39,31 @@
   --black: hsl(0, 0%, 0%);
 
   /* Theme */
+  /*--primary: var(--brink-pink);*/
+  /*--secondary: var(--middle-blue-green);*/
+  /*--tertiary: var(--independence);*/
+  /*--quarternary: var(--cornsilk);*/
+  /*--bg-primary: var(--white);*/
+  /*--bg-secondary: var(--independence);*/
+  /*--bg-tertiary: var(--cornsilk);*/
+  /*--text: var(--darkest-gray);*/
+  /*--focus-outline: var(--brink-pink);*/
+
   --primary: var(--brink-pink);
-  --secondary: var(--middle-blue-green);
-  --tertiary: var(--independence);
-  --quarternary: var(--cornsilk);
+  --secondary: var(--light-gray);
+  --tertiary: var(--dark-gray);
+  --quarternary: var(--mid-gray);
   --bg-primary: var(--white);
-  --bg-secondary: var(--independence);
-  --bg-tertiary: var(--cornsilk);
+  --bg-secondary: var(--dark-gray);
+  --bg-tertiary: var(--light-gray);
   --text: var(--darkest-gray);
   --focus-outline: var(--brink-pink);
 
-  --bg-gradient: linear-gradient(0deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 87%, .5) 100%);
-  --shape-gradient: linear-gradient(45deg, hsla(172, 56%, 80%, .5) 0%, hsla(172, 56%, 95%, .5) 100%);
+  /*--bg-gradient: linear-gradient(0deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 87%, .5) 100%);*/
+  /*--shape-gradient: linear-gradient(45deg, hsla(172, 56%, 80%, .5) 0%, hsla(172, 56%, 95%, .5) 100%);*/
+
+  --bg-gradient: linear-gradient(0deg, var(--mid-gray) 0%, hsla(var(--white)) 100%);
+  --shape-gradient: linear-gradient(var(--dark-gray) 0%, var(--mid-gray) 100%);
 
   --mod-light: 96%;
   --mod-medium: 50%;

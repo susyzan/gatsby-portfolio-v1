@@ -34,15 +34,15 @@
 .site_title_sm {
     text-align: left;
     font-size: 120%;
-    font-family: var(--heading-font);
-    font-weight: 700;
+    font-family: var(--highlight-font);
+    font-weight: normal;
 }
 
 .site_title {
     display: none;
     font-size: 120%;
-    font-family: var(--heading-font);
-    font-weight: 700;
+    font-family: var(--highlight-font);
+    font-weight: normal;
 }
 
 .site_description {

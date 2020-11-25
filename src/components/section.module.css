@@ -1,7 +1,8 @@
 .section {
-    padding: 2rem 0;
+    padding: 0;
     display: grid;
     overflow: hidden;
+    position: relative;
 }
 .bg_primary {
     background-color: var(--bg-primary);
@@ -15,6 +16,21 @@
 .bg_tertiary {
     background-color: var(--bg-tertiary);
 }
-.bg_gradient {
-    background: var(--bg-gradient);
+
+.bg_image:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../content/images/susie.png);
+    background-position-x: right;
+    background-position-y: 5em;
+    background-repeat: no-repeat;
+    /*background-color: var(--middle-blue-green-alpha);*/
+    background-size: 35%;
+    opacity: .3;
+    z-index: 0;
+    -webkit-filter: saturate(2) hue-rotate(170deg) contrast(9);
+    filter: saturate(2) hue-rotate(170deg) contrast(9);
 }

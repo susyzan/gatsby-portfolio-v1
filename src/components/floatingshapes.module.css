@@ -1,5 +1,5 @@
 /*  Animated Circles CSS credit: fdmdigital.co.uk  */
-
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 .circles {
     position: absolute;
     bottom: 0;
@@ -10,15 +10,18 @@
 }
 
 .circles li {
+    font-family: 'Monofett', monospace;
+    font-size: 300%;
+    color: var(--mid-gray);
     position: absolute;
     display: block;
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(96, 183, 199, 0.1);
+    /*background: rgba(96, 183, 199, 0.1);*/
     animation: animate 25s linear infinite;
     bottom: calc(-150px);
-    background: var(--shape-gradient);
+    background: none !important;
 }
 
 .circles li:nth-child(1) {
@@ -124,15 +127,18 @@
 
 @keyframes animate {
     0% {
-        transform: translateY(0vh) rotate(0deg);
-        opacity: .7;
+        transform: translateY(0vh);
+        /*transform: translateY(0vh) rotate(0deg);*/
+        opacity: .5;
     }
     50% {
-        transform: translateY(-60vh) rotate(360deg);
-        opacity: 1;
+        transform: translateY(-60vh);
+        /*transform: translateY(-60vh) rotate(360deg);*/
+        opacity: .7;
     }
     100% {
-        transform: translateY(-100vh) rotate(720deg);
+        transform: translateY(-100vh);
+        /*transform: translateY(-100vh) rotate(720deg);*/
         opacity: 0;
     }
 }
