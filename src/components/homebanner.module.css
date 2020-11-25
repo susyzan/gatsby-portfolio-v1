@@ -8,6 +8,7 @@
     padding: 10% 0;
     text-align: left;
     grid-column: 1 / span 2;
+    align-self: center;
     z-index: 1;
 }
 .home_banner h1 {
@@ -29,7 +30,21 @@
     color: var(--text);
 }
 .home_banner h1 span:nth-child(3) {
-    font-size: 6.5rem;
+    font-size: 6.125rem;
+}
+
+.home_banner p span {
+    display: inline-block;
+    font-weight: normal;
+    font-family: var(--highlight-font);
+    color: var(--text);
+    font-size: 1.3rem;
+}
+.home_banner p span:first-child {
+    color: var(--text);
+}
+.home_banner p span:nth-child(2) {
+    color: var(--primary);
 }
 
 .banner_image {

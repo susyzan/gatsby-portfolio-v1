@@ -10,20 +10,15 @@
 }
 
 .circles span {
-    font-family: 'Monofett', monospace;
-    font-size: 300%;
-    /*color: var(--mid-gray);*/
     position: absolute;
     display: block;
     list-style: none;
     width: 20px;
     height: 20px;
-    /*background: rgba(96, 183, 199, 0.1);*/
+    background: var(--primary);
     animation: animate 25s linear infinite;
     bottom: calc(-150px);
-    background: none !important;
     z-index: 0;
-    color: var(--middle-blue-green);
 }
 
 .circles span:nth-child(1) {
@@ -34,7 +29,7 @@
     animation-delay: 0s;
     animation-duration: 20s;
     border-radius: 50%;
-    background: var(--shape-gradient);
+    background: var(--lavender);
 }
 
 .circles span:nth-child(2) {
@@ -44,7 +39,6 @@
     animation-delay: 0s;
     animation-duration: 25s;
     border-radius: 50%;
-    background: var(--shape-gradient);
 }
 
 .circles span:nth-child(3) {
@@ -53,8 +47,8 @@
     height: 20px;
     animation-delay: 0s;
     animation-duration: 15s;
+    animation-direction: reverse;
     border-radius: 50%;
-    background: var(--shape-gradient);
 }
 
 .circles span:nth-child(4) {
@@ -65,7 +59,7 @@
     animation-delay: 0s;
     animation-duration: 15s;
     border-radius: 50%;
-    background: var(--shape-gradient);
+    background: var(--lavender);
 }
 
 .circles span:nth-child(5) {
@@ -76,7 +70,6 @@
     animation-delay: 0s;
     animation-duration: 20s;
     border-radius: 50%;
-    background: var(--shape-gradient);
 }
 
 .circles span:nth-child(6) {
@@ -87,7 +80,7 @@
     animation-delay: 0s;
     animation-duration: 25s;
     border-radius: 50%;
-    background: var(--shape-gradient);
+    background: var(--lavender);
 }
 
 .circles span:nth-child(7) {
@@ -97,8 +90,6 @@
     animation-delay: 0s;
     animation-duration: 30s;
     border-radius: 50%;
-    /*border-top-left-radius: 0 !important;*/
-    background: var(--shape-gradient);
 }
 
 .circles span:nth-child(8) {
@@ -106,9 +97,10 @@
     width: 25px;
     height: 25px;
     animation-delay: 0s;
-    animation-duration: 35s;
+    animation-duration: 50s;
     border-radius: 50%;
-    background: var(--shape-gradient);
+    animation-direction: reverse;
+    background: var(--lavender);
 }
 
 .circles span:nth-child(9) {
@@ -119,7 +111,6 @@
     animation-delay: 0s;
     animation-duration: 40s;
     border-radius: 50%;
-    background: var(--shape-gradient);
 }
 
 .circles span:nth-child(10) {
@@ -129,23 +120,21 @@
     animation-delay: 0s;
     animation-duration: 45s;
     border-radius: 50%;
-    background: var(--shape-gradient);
 }
 
 @keyframes animate {
     100% {
-        transform: translateY(0vh);
+        transform: translateY(-100vh);
         /*transform: translateY(0vh) rotate(0deg);*/
-        opacity: .6;
+        opacity: 0;
     }
     50% {
         transform: translateY(-60vh);
         /*transform: translateY(-60vh) rotate(360deg);*/
-        opacity: .3;
+        opacity: .8;
     }
     0% {
-        transform: translateY(-100vh);
-        /*transform: translateY(-100vh) rotate(720deg);*/
+        transform: translateY(-10vh);
         opacity: 0;
     }
 }

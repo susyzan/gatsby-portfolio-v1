@@ -1,8 +1,19 @@
 .footer {
+    position: relative;
     background-color: transparent;
     font-size: 100%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+}
+.footer:before {
+    content: "";
+    height: 1px;
+    width: 65%;
+    background-color: var(--cornsilk-alpha);
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 0 auto;
 }

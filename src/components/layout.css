@@ -13,7 +13,7 @@ body {
   color: var(--text);
   font-family: var(--body-font);
   font-size: var(--base-font-size);
-  font-weight: normal;
+  font-weight: 300;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -109,7 +109,7 @@ a.anim:before {
   height: 8px;
   bottom: 0;
   left: -5%;
-  background-color: var(--middle-blue-green);
+  background-color: var(--primary);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;

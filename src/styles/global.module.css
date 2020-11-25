@@ -21,6 +21,7 @@
   --font-black: 800;
 
   --base-font-size: 1rem;
+  --small-font-size: .75rem;
   --base-line-height: 1.5;
 
   /* Colours */
@@ -28,6 +29,8 @@
   --cultured-alpha: hsla(0, 0%, 96%, .95);
   --gainsboro: hsl(220, 14%, 96%);
   --brink-pink: hsl(356, 100%, 76%);
+  --brink-pink-alpha: hsla(356, 100%, 76%, .8);
+  --lavender: hsl(332, 22%, 38%);
   --cornsilk: hsl(60, 39%, 94%);
   --cornsilk-alpha: hsla(60, 39%, 94%, .5);
   --middle-blue-green: hsl(204, 24%, 52%);
@@ -45,12 +48,14 @@
 
   /* Theme */
   --primary: var(--brink-pink);
+  --primary-alpha: var(--brink-pink-alpha);
   --secondary: var(--middle-blue-green);
   --quarternary: var(--cornsilk);
   --bg-primary: var(--darkest-gray);
   --bg-primary-alpha: hsla(220, 15%, 8%,.8);
   --bg-tertiary: var(--cornsilk);
   --text: var(--cornsilk);
+  --text-alpha: var(--cornsilk-alpha);
   --focus-outline: var(--brink-pink);
 
   --mod-light: 96%;

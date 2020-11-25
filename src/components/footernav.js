@@ -12,7 +12,7 @@ const FooterNav = ({ menuLinks }) => {
                         <AniLink
                             fade
                             to={props.link}
-                            duration={1}
+                            duration={0.3}
                         >
                             {props.name}
                         </AniLink>

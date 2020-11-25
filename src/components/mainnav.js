@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import style from "./mainnav.module.css"
@@ -13,7 +12,7 @@ const MainNav = ({ menuLinks }) => {
                         <AniLink
                             fade
                             to={props.link}
-                            duration={1}
+                            duration={0.3}
                             className="anim"
                             activeClassName="active"
                         >

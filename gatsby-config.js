@@ -52,7 +52,8 @@ module.exports = {
           },
           {
             family: `Raleway`,
-            subsets: [`latin`]
+            subsets: [`latin`],
+            variants: [`200`,`300`,`400`,`500`,`600`,`700`]
           },
         ],
       },

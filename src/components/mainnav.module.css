@@ -3,15 +3,14 @@
     padding: 0.5rem;
 }
 .navigation ul {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     margin: 0;
     padding: .5rem 1rem;
     color: var(--primary-font);
-    font-weight: bold;
     background-color: var(--bg-primary-alpha);
-    border-bottom: 1px solid var(--cornsilk-alpha);
 }
 
 .navigation li {
@@ -24,7 +23,8 @@
     text-transform: uppercase;
     line-height: 1.7;
     color: inherit;
-    font-size: 100%;
+    font-size: var(--small-font-size);
+    font-weight: 400;
 }
 
 .navigation a:hover {

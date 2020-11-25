@@ -12,11 +12,13 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
                 <AniLink
                     paintDrip
                     to="/"
-                    duration={1}
+                    duration={0.8}
                     entry={{
                         delay: 0.6
                     }}
-                    hex="#98E1D9"
+                    // hex="#6689a1"
+                    // hex="#774c60"
+                    hex="#ff858d"
                 >
                     <div className={style.site_title_sm} aria-label={siteTitle}>{headerTitleSm}</div>
                     <div className={style.site_title}>{headerTitle}</div>
