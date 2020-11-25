@@ -37,17 +37,16 @@
 /* Do not show the outline on the skip link target. */
 #primary[tabindex="-1"]:focus {
 	outline: 0;
+
 }
 
 /*Focus*/
-/*body *:focus {*/
-/*	outline-color: var(--brink-pink) !important;*/
-/*	outline-offset: -3px;*/
-/*	outline-style: solid;*/
-/*	outline-width: 3px;*/
-/*	!*outline: 2px solid #EEC643 !important; !* for non-webkit browsers *!*!*/
-/*	!*outline: 5px auto -webkit-focus-ring-color !important;*!*/
-/*}*/
+a:focus,
+button:focus {
+	-moz-outline-color: hsla(160, 44%, 76%, .9) !important;
+	outline-offset: -2px;
+	outline: 2px solid hsla(160, 44%, 76%, .9) !important;
+}
 /*.header a:focus,*/
 /*.header nav .navbar-nav .nav-link:focus {*/
 /*	outline: none;*/

@@ -25,6 +25,9 @@
     color: inherit;
     font-size: var(--small-font-size);
     font-weight: 400;
+    overflow: hidden;
+    padding: 0.1rem;
+
 }
 
 .navigation a:hover {
@@ -45,6 +48,9 @@
 
     .navigation li {
         margin-right: 0;
-        margin-left: 2rem;
+        margin-left: 1rem;
+    }
+    .navigation a {
+        padding: 0.225rem;
     }
 }
