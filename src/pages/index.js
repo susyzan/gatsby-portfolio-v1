@@ -8,16 +8,18 @@ import Layout from "../components/layout"
 import Section from "../components/section"
 import HomeBanner from "../components/homebanner"
 import SEO from "../components/seo"
+import FloatingShapes from "../components/floatingshapes";
 
 const IndexPage = () => (
       <Layout>
         <SEO title="Susanna Zanatta - Home" />
-            <Section
-                id="banner"
-                bg="bg_image"
-            >
-                <HomeBanner />
-            </Section>
+        <Section
+            id="banner"
+            bg="bg_image"
+        >
+            <HomeBanner />
+            <FloatingShapes/>
+        </Section>
       </Layout>
 )
 

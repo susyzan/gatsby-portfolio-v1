@@ -76,7 +76,8 @@
   --padding: 1rem;
 
   /* Sizes and widths */
-  --content-w-wide: 80rem;
+  --content-w-xwide: 80rem;
+  --content-w-wide: 70rem;
   --content-w-regular: 60rem;
   --content-w-narrow: 40rem;
 
