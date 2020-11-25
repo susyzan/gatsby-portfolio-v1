@@ -12,6 +12,7 @@ const HomeBanner = () => {
             </div>
         </div>
     )
+
 }
 
 export default HomeBanner

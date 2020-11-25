@@ -29,8 +29,8 @@
     background-repeat: no-repeat;
     /*background-color: var(--middle-blue-green-alpha);*/
     background-size: 35%;
-    opacity: .3;
+    opacity: .4;
     z-index: 0;
-    -webkit-filter: saturate(2) hue-rotate(170deg) contrast(9);
-    filter: saturate(2) hue-rotate(170deg) contrast(9);
+    -webkit-filter: saturate(.8) hue-rotate(170deg) contrast(2.8);
+    filter: saturate(.8) hue-rotate(170deg) contrast(2.8);
 }

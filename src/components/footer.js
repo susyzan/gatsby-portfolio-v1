@@ -1,16 +1,11 @@
 import React from "react"
 import styles from "./footer.module.css"
+import FooterNav from "./footernav"
 
-const Footer = () => {
+const Footer = ({menuLinks}) => {
     return (
         <footer id="footer" className={styles.footer}>
-            <nav aria-label="Footer menu">
-                <ul>
-                    <li>link</li>
-                    <li>link</li>
-                    <li>link</li>
-                </ul>
-            </nav>
+            <FooterNav menuLinks={menuLinks}/>
             <div>
                 © {new Date().getFullYear()}, Built with
                 {` `}

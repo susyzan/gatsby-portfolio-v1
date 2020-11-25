@@ -34,35 +34,36 @@
   --light-gray: var(--cultured);
   --mid-gray: 	hsl(0, 0%, 76%);
   --dark-gray: hsl(0, 0%, 52%);
+  --darker-gray: hsl(0, 0%, 25%);
   --darkest-gray: hsl(0, 0%, 8%);
   --rich-black: var(--darkest-gray);
   --black: hsl(0, 0%, 0%);
 
   /* Theme */
-  /*--primary: var(--brink-pink);*/
-  /*--secondary: var(--middle-blue-green);*/
-  /*--tertiary: var(--independence);*/
-  /*--quarternary: var(--cornsilk);*/
-  /*--bg-primary: var(--white);*/
-  /*--bg-secondary: var(--independence);*/
-  /*--bg-tertiary: var(--cornsilk);*/
-  /*--text: var(--darkest-gray);*/
-  /*--focus-outline: var(--brink-pink);*/
-
   --primary: var(--brink-pink);
-  --secondary: var(--light-gray);
-  --tertiary: var(--dark-gray);
-  --quarternary: var(--mid-gray);
+  --secondary: var(--middle-blue-green);
+  --tertiary: var(--independence);
+  --quarternary: var(--cornsilk);
   --bg-primary: var(--white);
-  --bg-secondary: var(--dark-gray);
-  --bg-tertiary: var(--light-gray);
+  --bg-secondary: var(--independence);
+  --bg-tertiary: var(--cornsilk);
   --text: var(--darkest-gray);
   --focus-outline: var(--brink-pink);
 
-  /*--bg-gradient: linear-gradient(0deg, var(--middle-blue-green--alpha) 0%, hsla(172, 56%, 87%, .5) 100%);*/
+  /*--primary: var(--brink-pink);*/
+  /*--secondary: var(--light-gray);*/
+  /*--tertiary: var(--dark-gray);*/
+  /*--quarternary: var(--mid-gray);*/
+  /*--bg-primary: var(--white);*/
+  /*--bg-secondary: var(--dark-gray);*/
+  /*--bg-tertiary: var(--light-gray);*/
+  /*--text: var(--darkest-gray);*/
+  /*--focus-outline: var(--brink-pink);*/
+
+  --bg-gradient: linear-gradient(9deg, var(--middle-blue-green-alpha) 0%, hsl(0, 0%, 100%) 100%);
   /*--shape-gradient: linear-gradient(45deg, hsla(172, 56%, 80%, .5) 0%, hsla(172, 56%, 95%, .5) 100%);*/
 
-  --bg-gradient: linear-gradient(0deg, var(--mid-gray) 0%, hsla(var(--white)) 100%);
+  /*--bg-gradient: linear-gradient(0deg, var(--mid-gray) 0%, hsla(var(--white)) 100%);*/
   --shape-gradient: linear-gradient(var(--dark-gray) 0%, var(--mid-gray) 100%);
 
   --mod-light: 96%;

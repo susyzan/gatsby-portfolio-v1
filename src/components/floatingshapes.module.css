@@ -9,10 +9,10 @@
     z-index: 0;
 }
 
-.circles li {
+.circles span {
     font-family: 'Monofett', monospace;
     font-size: 300%;
-    color: var(--mid-gray);
+    /*color: var(--mid-gray);*/
     position: absolute;
     display: block;
     list-style: none;
@@ -22,9 +22,12 @@
     animation: animate 25s linear infinite;
     bottom: calc(-150px);
     background: none !important;
+    z-index: 0;
+    color: var(--middle-blue-green);
 }
 
-.circles li:nth-child(1) {
+.circles span:nth-child(1) {
+    content: "0";
     left: 25%;
     width: 80px;
     height: 80px;
@@ -34,7 +37,7 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(2) {
+.circles span:nth-child(2) {
     left: 10%;
     width: 20px;
     height: 20px;
@@ -44,7 +47,7 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(3) {
+.circles span:nth-child(3) {
     left: 70%;
     width: 20px;
     height: 20px;
@@ -54,7 +57,8 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(4) {
+.circles span:nth-child(4) {
+    content: "0";
     left: 40%;
     width: 60px;
     height: 60px;
@@ -64,7 +68,8 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(5) {
+.circles span:nth-child(5) {
+    content: "0";
     left: 65%;
     width: 20px;
     height: 20px;
@@ -74,7 +79,8 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(6) {
+.circles span:nth-child(6) {
+    content: "0";
     left: 75%;
     width: 90px;
     height: 90px;
@@ -84,7 +90,7 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(7) {
+.circles span:nth-child(7) {
     left: 35%;
     width: 50px;
     height: 50px;
@@ -95,7 +101,7 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(8) {
+.circles span:nth-child(8) {
     left: 50%;
     width: 25px;
     height: 25px;
@@ -105,7 +111,8 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(9) {
+.circles span:nth-child(9) {
+    content: "0";
     left: 20%;
     width: 15px;
     height: 15px;
@@ -115,7 +122,7 @@
     background: var(--shape-gradient);
 }
 
-.circles li:nth-child(10) {
+.circles span:nth-child(10) {
     left: 85%;
     width: 50px;
     height: 50px;
@@ -126,17 +133,17 @@
 }
 
 @keyframes animate {
-    0% {
+    100% {
         transform: translateY(0vh);
         /*transform: translateY(0vh) rotate(0deg);*/
-        opacity: .5;
+        opacity: .6;
     }
     50% {
         transform: translateY(-60vh);
         /*transform: translateY(-60vh) rotate(360deg);*/
-        opacity: .7;
+        opacity: .3;
     }
-    100% {
+    0% {
         transform: translateY(-100vh);
         /*transform: translateY(-100vh) rotate(720deg);*/
         opacity: 0;
