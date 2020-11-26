@@ -13,12 +13,7 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
                     paintDrip
                     to="/"
                     duration={0.8}
-                    entry={{
-                        delay: 0.6
-                    }}
                     className={""}
-                    // hex="#6689a1"
-                    // hex="#774c60"
                     hex="#ff858d"
                 >
                     <div className={style.site_title_sm} aria-label={siteTitle}>{headerTitleSm}</div>

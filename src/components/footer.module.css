@@ -2,6 +2,7 @@
     position: relative;
     background-color: transparent;
     font-size: 100%;
+    font-weight: 300;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -18,6 +19,10 @@
     right: 0;
     margin: 0 auto;
 }
+.copy {
+    font-size: 70%;
+}
+
 @media screen and (--viewport-narrow-min) {
     .footer {
         max-height: 5rem;

@@ -19,7 +19,6 @@
     line-height: 1.7;
     color: inherit;
     font-size: var(--small-font-size);
-    font-weight: 200;
     transition: all 300ms ease-in-out;
     padding: 0.225rem;
     margin: 0 .1rem;

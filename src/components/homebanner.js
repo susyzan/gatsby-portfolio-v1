@@ -11,9 +11,9 @@ const HomeBanner = () => {
                 <p>I'm a <span>digital</span> <span>developer</span> based in the UK.</p>
                 <Button
                     to="/work"
-                    animation="fade"
+                    animcolor="#774c60"
                     floating={true}
-                >about me</Button>
+                >tell me more</Button>
             </div>
         </div>
     )
