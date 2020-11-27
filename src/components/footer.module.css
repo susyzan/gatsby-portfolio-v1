@@ -1,5 +1,6 @@
 .footer {
     position: relative;
+    grid-area: footer;
     background-color: transparent;
     font-size: 100%;
     font-weight: 300;

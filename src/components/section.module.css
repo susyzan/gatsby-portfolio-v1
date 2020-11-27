@@ -1,8 +1,8 @@
 .section {
     padding: 0;
-    display: grid;
     overflow: hidden;
     position: relative;
+    display: grid;
 }
 .bg_primary {
     background-color: var(--bg-primary);
