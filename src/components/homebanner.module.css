@@ -69,7 +69,8 @@
 
 @media screen and (--viewport-narrow-min) {
     .content {
-        padding: 10% 0;
+        padding: 0;
+        align-items: center;
     }
     .home_banner h2 {
         margin-left: 0;

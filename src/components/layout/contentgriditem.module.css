@@ -1,0 +1,22 @@
+.content_grid_item {
+    padding: 1rem 0;
+    height: auto;
+}
+@media screen and (--viewport-narrow-min) {
+    .item_span_2 {
+        grid-column: span 2;
+    }
+    .item_span_3 {
+        grid-column: span 3;
+    }
+    .item_span_2.reverse {
+        grid-column: 2 / span 2;
+    }
+    .reverse {
+        grid-column-start: 1;
+    }
+    .content_grid_item p {
+        max-width: 80%;
+    }
+
+}

@@ -73,7 +73,6 @@ footer {
   .content-container-xl {
     padding: 0 1rem;
   }
-
 }
 
 
@@ -343,7 +342,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2rem;
   font-family: var(--highlight-font);
   color: var(--primary);
   font-weight: bold;
@@ -359,7 +358,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2rem;
   color: inherit;
   font-family: var(--heading-font);
   font-weight: bold;

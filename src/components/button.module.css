@@ -1,7 +1,7 @@
 .button {
     display: inline-block;
     position: relative;
-    margin: 0.5rem 0;
+    margin: 2.5rem 0;
     width: auto;
     min-width: 2.5rem;
     min-height: 2.5rem;
@@ -23,6 +23,7 @@
 @media screen and (--viewport-narrow-max) {
     .button  {
         font-size: .7rem;
+        margin: 0.5rem 0;
     }
 }
 

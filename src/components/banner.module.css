@@ -27,10 +27,14 @@
 }
 
 @media screen and (--viewport-narrow-min) {
+    .banner {
+        min-height: 20rem;
+        align-items: center;
+    }
     .content {
-        padding: 10% 0;
+        padding: 0;
     }
     .banner h2 {
-        font-size: 2.3rem;
+        font-size: 3.5rem;
     }
 }

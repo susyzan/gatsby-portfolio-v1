@@ -1,0 +1,32 @@
+.image-container {
+    align-self: center;
+}
+
+.floating-image {
+    transform: translatey(0px) rotate(35deg);
+    animation: float 5s ease-in-out infinite;
+    position: relative;
+    opacity: 0.8;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px) rotate(35deg);
+    }
+    50% {
+        transform: translatey(-10px) rotate(40deg);
+    }
+    100% {
+        transform: translatey(0px) rotate(35deg);
+    }
+}
+
+@media screen and (--viewport-narrow-min) {
+    .floating-image {
+        transform: translatey(0px) rotate(35deg);
+        animation: float 5s ease-in-out infinite;
+        left: -40%;
+        bottom: -4rem;
+        width: 150%;
+    }
+}
