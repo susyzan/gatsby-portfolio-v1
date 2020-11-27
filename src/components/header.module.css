@@ -47,33 +47,20 @@
 }
 
 .masthead_info a:hover {
-    animation-play-state: paused
+    animation-play-state: paused;
+}
+
+.masthead_info h1 {
+    font-size: var(--base-font-size);
+    display: inline;
 }
 
 .site_title_sm {
     text-align: left;
     font-size: 120%;
+    line-height: 1.5;
     font-family: var(--highlight-font);
     font-weight: normal;
-}
-
-.site_title {
-    display: none;
-    font-size: 120%;
-    font-family: var(--highlight-font);
-    font-weight: normal;
-}
-
-.site_description {
-    display: none;
-    font-size: 80%;
-    font-family: var(--body-font);
-    font-weight: 700;
-}
-
-.site_logo {
-    margin: 1rem auto;
-    max-width: 6rem;
 }
 
 @keyframes float {

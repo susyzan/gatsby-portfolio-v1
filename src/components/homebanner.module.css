@@ -11,31 +11,32 @@
     align-self: center;
     z-index: 1;
 }
-.home_banner h1 {
+.home_banner h2 {
     word-wrap: break-word;
     font-family: var(--highlight-font);
     text-transform: uppercase;
     margin-right: 1rem;
+    font-weight: normal;
 }
-.home_banner h1 span {
+.home_banner h2 span {
     display: block;
     font-weight: normal;
 }
 
-.home_banner h1 span:first-child {
+.home_banner h2 span:first-child {
     font-size: 1.8rem;
     color: var(--text);
     line-height: 1.725;
     letter-spacing: 1px;
 }
-.home_banner h1 span:nth-child(2) {
+.home_banner h2 span:nth-child(2) {
     font-size: 1.225rem;
     color: var(--text);
     line-height: 1;
     letter-spacing: 2px;
     margin-bottom: .8rem;
 }
-.home_banner h1 span:nth-child(3) {
+.home_banner h2 span:nth-child(3) {
     font-size: 3.5rem;
     margin-bottom: .6rem;
     max-width: 15rem;
@@ -70,16 +71,16 @@
     .content {
         padding: 10% 0;
     }
-    .home_banner h1 {
+    .home_banner h2 {
         margin-left: 0;
     }
-    .home_banner h1 span:first-child {
+    .home_banner h2 span:first-child {
         font-size: 1.8rem;
     }
-    .home_banner h1 span:nth-child(2) {
+    .home_banner h2 span:nth-child(2) {
         font-size: 2.3rem;
     }
-    .home_banner h1 span:nth-child(3) {
+    .home_banner h2 span:nth-child(3) {
         font-size: 6.125rem;
         max-width: unset;
     }

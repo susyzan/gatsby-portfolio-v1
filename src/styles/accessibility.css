@@ -7,7 +7,7 @@
  * Re: word-wrap: Many screen reader and browser combinations announce broken
  * words as they would appear visually.
  */
- .screen-reader-text {
+ .sr-only {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
 	height: 1px;
@@ -16,7 +16,7 @@
 	word-wrap: normal !important;
 }
 
-.screen-reader-text:focus {
+.sr-only:focus {
 	background-color: #f1f1f1;
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -34,23 +34,25 @@
 	width: auto;
 }
 
-/* Do not show the outline on the skip link target. */
-#primary[tabindex="-1"]:focus {
-	outline: 0;
-
-}
-
 /*Focus*/
-a:focus,
-button:focus {
-	-moz-outline-color: hsla(160, 44%, 76%, .9) !important;
-	outline-offset: -2px;
-	outline: 2px solid hsla(160, 44%, 76%, .9) !important;
-}
-/*.header a:focus,*/
-/*.header nav .navbar-nav .nav-link:focus {*/
+/**:focus,*/
+/*a:focus,*/
+/*button:focus {*/
+/*	outline-color: hsla(160, 44%, 76%, .9) !important;*/
+/*}*/
+
+
+/*!* Remove outline for non-keyboard :focus *!*/
+/*a:focus:not(:focus-visible),*/
+/*button:focus:not(:focus-visible) {*/
 /*	outline: none;*/
-/*	background-color: var(--brink-pink) !important;*/
-/*	border-color: var(--brink-pink) !important;*/
-/*	color: var(--rich-black);*/
+/*}*/
+
+/*!*Focus*!*/
+/*a:focus-visible,*/
+/*a:-moz-focusring,*/
+/*button:focus-visible,*/
+/*button:-moz-focusring {*/
+/*	outline-offset: -2px;*/
+/*	outline: 2px solid hsla(160, 44%, 76%, .9) !important;*/
 /*}*/

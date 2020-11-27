@@ -17,7 +17,7 @@
     background-color: var(--bg-tertiary);
 }
 
-.bg_image:before {
+.home_bg_image:before {
     content: "";
     position: absolute;
     right: -25%;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (--viewport-narrow-min) {
-    .bg_image:before {
+    .home_bg_image:before {
         right: 0;
         height: 100%;
         width: 100%;

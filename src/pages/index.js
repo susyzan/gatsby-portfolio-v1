@@ -14,10 +14,7 @@ import FloatingShapes from "../components/floatingshapes";
 const IndexPage = ({data}) => (
       <Layout>
         <SEO title="Susanna Zanatta - Home" />
-        <Section
-            id="banner"
-            bg="bg_image"
-        >
+        <Section bg="home_bg_image">
             <HomeBanner data={data}/>
             <FloatingShapes/>
         </Section>

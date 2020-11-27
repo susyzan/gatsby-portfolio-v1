@@ -16,9 +16,10 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
                     className={""}
                     hex="#ff858d"
                 >
-                    <div className={style.site_title_sm} aria-label={siteTitle}>{headerTitleSm}</div>
-                    <div className={style.site_title}>{headerTitle}</div>
-                    <div className={style.site_description}>{headerDescription}</div>
+                    <h1>
+                        <span className={style.site_title_sm} aria-label={siteTitle} aria-hidden={true}>{headerTitleSm}</span>
+                        <span className="sr-only">{`${headerTitle} ${headerDescription}`}</span>
+                    </h1>
                 </AniLink>
             </div>
             <MainNav menuLinks={menuLinks}/>

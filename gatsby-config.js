@@ -47,7 +47,8 @@ module.exports = {
       options: {
         fonts: [
           `playfair display\:300,400,400i,500,500i,600,700`,
-          `raleway\:200,300,400,400i,500,500,600,700,800,900`
+          `raleway\:200,300,400,400i,500,500,600,700,800,900`,
+          `monoton`,
         ],
         display: 'swap'
       }

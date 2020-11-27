@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.content {
+    padding: 2.5rem 0 0 0;
+    text-align: left;
+    grid-column: auto / span 2;
+    align-self: center;
+    z-index: 1;
+}
+
+.banner h2 {
+    word-wrap: break-word;
+    font-family: var(--highlight-font);
+    color: var(--primary);
+    font-size: 1.225rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-weight: normal;
+}
+
+.banner_image {
+    grid-column: auto / span 1;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .content {
+        padding: 10% 0;
+    }
+    .banner h2 {
+        font-size: 2.3rem;
+    }
+}

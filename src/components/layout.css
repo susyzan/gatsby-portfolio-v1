@@ -40,6 +40,8 @@ body {
 main {
   grid-area: main;
   display: grid;
+  grid-template-rows: minmax(30vh,100%) auto;
+  grid-template-areas: 'banner' 'content';
   margin: 0;
   padding: 0;
 }
@@ -132,6 +134,7 @@ a.anim.active:before {
   visibility: visible;
   transform: scaleX(1);
 }
+
 @media screen and (--viewport-narrow-min) {
   a.anim:before {
     bottom: 3px;
@@ -164,13 +167,11 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: var(--brink-pink);
   font-family: var(--heading-font);
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: var(--brink-pink);
 }
 mark {
   background-color: #ff0;
@@ -343,8 +344,8 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: var(--heading-font);
+  font-family: var(--highlight-font);
+  color: var(--primary);
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;

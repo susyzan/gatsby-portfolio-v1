@@ -1,4 +1,6 @@
 import React from "react"
+import Bounce from 'react-reveal/Bounce'
+import Fade from 'react-reveal/Fade'
 
 import styles from "./homebanner.module.css"
 import Button from "./button";
@@ -7,13 +9,17 @@ const HomeBanner = () => {
     return (
         <div className={styles.home_banner}>
             <div className={styles.content}>
-                <h1><span>Hello,</span> <span>you found me...</span> <span>I'm Susie.</span></h1>
-                <p>I'm a <span>digital</span> <span>developer</span> based in the UK.</p>
-                <Button
-                    to="/work"
-                    animcolor="#774c60"
-                    floating={true}
-                >tell me more</Button>
+                <Fade duration={2000} left={true} distance="1rem">
+                    <h2><span>Hello,</span> <span>you found me...</span> <span>I'm Susie.</span></h2>
+                    <p>I'm a <span>digital</span> <span>developer</span> based in the UK.</p>
+                </Fade>
+                <Bounce delay={900} duration={1000} bottom={true}>
+                    <Button
+                        to="/about"
+                        animcolor="#774c60"
+                        floating={true}
+                    >tell me more</Button>
+                </Bounce>
             </div>
         </div>
     )
