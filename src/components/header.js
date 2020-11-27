@@ -5,7 +5,8 @@ import PropTypes from "prop-types"
 import MainNav from "./mainnav"
 import style from "./header.module.css"
 
-const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  menuLinks }) => (
+const Header = ({ headerTitleSm, headerTitle, pageTitle,  menuLinks }) => (
+
     <header id="site-header" className={style.masthead} role="banner">
         <div className={`content-container-xl ${style.masthead_container}`}>
             <div className={style.masthead_info}>
@@ -17,8 +18,8 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
                     hex="#ff858d"
                 >
                     <h1>
-                        <span className={style.site_title_sm} aria-label={siteTitle} aria-hidden={true}>{headerTitleSm}</span>
-                        <span className="sr-only">{`${headerTitle} ${headerDescription}`}</span>
+                        <span className={style.site_title_sm} aria-label={headerTitle} aria-hidden={true}>{headerTitleSm}</span>
+                        <span className="sr-only">{` ${headerTitle} - ${pageTitle}`}</span>
                     </h1>
                 </AniLink>
             </div>
@@ -28,17 +29,17 @@ const Header = ({ siteTitle, headerTitleSm, headerTitle, headerDescription,  men
 )
 
 Header.propTypes = {
-    siteTitle: PropTypes.string,
     headerTitleSm: PropTypes.string,
     headerTitle: PropTypes.string,
     headerDescription: PropTypes.string,
+    pageTitle: PropTypes.string,
 }
 
 Header.defaultProps = {
-    siteTitle: ``,
     headerTitleSm: ``,
     headerTitle: ``,
     headerDescription: ``,
+    pageTitle: 'Susanna Zanatta - Digital developers'
 }
 
 export default Header

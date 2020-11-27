@@ -8,7 +8,7 @@ const Button = ({to, classes, floating, children}) => {
         <AniLink to={to}
                  className={`${classes} ${styles.button} ${floating ? styles.floating : ''}`}
                  fade
-                 duration={0.2}
+                 duration={0.5}
         >
             {children}
         </AniLink>

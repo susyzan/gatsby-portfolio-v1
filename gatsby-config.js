@@ -1,6 +1,5 @@
 module.exports = {
   siteMetadata: {
-    title: `Susanna Zanatta - Digital Developer`,
     description: `Portfolio showcasing my work`,
     headerTitleSm: 'SZ',
     headerTitle: 'Susanna Zanatta',

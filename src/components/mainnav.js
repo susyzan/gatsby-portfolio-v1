@@ -10,14 +10,9 @@ const MainNav = ({ menuLinks }) => {
                 {menuLinks.map(props => (
                     <li key={props.name}>
                         <AniLink
-                            paintDrip
+                            fade
                             to={props.link}
-                            duration={0.8}
-                            entry={{
-                                delay: 3
-                            }}
-                            // hex="#6689a1"
-                            hex="#774c60"
+                            duration={0.5}
                             className="anim"
                             activeClassName="active"
                         >
