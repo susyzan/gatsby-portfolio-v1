@@ -9,7 +9,7 @@ const HomeBanner = () => {
     return (
         <div className={styles.home_banner}>
             <div className={styles.content}>
-                <Fade duration={2000} left={true} distance="1rem">
+                <Fade duration={2000} left={true} distance="1.6rem">
                     <h2><span>Hello.</span> <span>I'm Susie.</span></h2>
                     <p><span>I'm a digital</span> <span>developer.</span></p>
                 </Fade>

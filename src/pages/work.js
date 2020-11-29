@@ -25,7 +25,7 @@ const Work = ({data}) => {
             <SEO title={pageTitle}/>
             <Section id="banner" bg="bg_transparent">
                 <Banner>
-                    <Fade duration={2000} left={true} distance="1rem">
+                    <Fade duration={2000} left={true} distance="1.6rem">
                         <h2>Work.</h2>
                     </Fade>
                     <div>
@@ -39,7 +39,7 @@ const Work = ({data}) => {
                 <ul className={styles.project_list}>
                     {data.projects.edges.map((project, i) => (
                         <li key={i} className={styles.project_item}>
-                            <Fade duration={2000} bottom={true} distance="1rem">
+                            <Fade duration={2000} bottom={true} distance="1.6rem">
                                 <ProjectCard project={project.node}/>
                             </Fade>
                         </li>

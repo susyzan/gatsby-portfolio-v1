@@ -42,7 +42,7 @@ const Layout = ({ children, pageTitle }) => {
                         {children}
                     </PageTransition>
                 </main>
-                <Footer menuLinks={data.site.siteMetadata.menuLinks}/>
+                <Footer />
             </div>
     </>
   )

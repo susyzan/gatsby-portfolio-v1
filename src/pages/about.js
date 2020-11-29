@@ -28,7 +28,7 @@ const About = ({data}) => {
             <SEO title={pageTitle}/>
             <Section id="banner" bg="bg_transparent">
                 <Banner>
-                    <Fade duration={2000} left={true} distance="1rem">
+                    <Fade duration={2000} left={true} distance="1.6rem">
                         <h2>About.</h2>
                     </Fade>
                     <div>
@@ -41,7 +41,7 @@ const About = ({data}) => {
             <Section bg="bg_transparent">
                 <ContentGrid>
                     <ContentGridItem full={true} classes="center">
-                        <Fade duration={2000} bottom={true} distance="1rem">
+                        <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h3>Pretty and accessible.</h3>
                             <p>Later in my digital career - better late than never, hey - I realised that the full potential of
                                 an inclusive digital world is limitless, and shifted my whole perception around web
@@ -51,7 +51,7 @@ const About = ({data}) => {
                         </Fade>
                     </ContentGridItem>
                     <ContentGridItem two={true} reverse={false}>
-                        <Fade duration={2000} bottom={true} distance="1rem">
+                        <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h3>Background.</h3>
                             <p>I am dual Italian and Australian citizen and I currently live in Scotland. I lived in Australia
                                 for the past few years where I discovered just how cool the digital side of the world is and

@@ -26,7 +26,7 @@
         transform: translatey(0px) rotate(35deg);
         animation: float 5s ease-in-out infinite;
         left: -40%;
-        bottom: -4rem;
+        bottom: -10rem;
         width: 150%;
     }
 }

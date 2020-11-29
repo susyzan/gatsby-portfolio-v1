@@ -16,9 +16,9 @@
     word-wrap: break-word;
     font-family: var(--highlight-font);
     color: var(--primary);
-    font-size: 1.225rem;
+    font-size: 2rem;
     text-transform: lowercase;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
 }
 
 .banner_image {
@@ -27,13 +27,13 @@
 
 @media screen and (--viewport-narrow-min) {
     .banner {
-        min-height: 20rem;
+        min-height: 30rem;
         align-items: center;
     }
     .content {
         padding: 0;
     }
     .banner h2 {
-        font-size: 6rem;
+        font-size: 10rem;
     }
 }

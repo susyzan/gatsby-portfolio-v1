@@ -1,16 +1,16 @@
 .button {
     display: inline-block;
     position: relative;
-    margin: 2.5rem 0;
+    margin: 3rem 0;
     width: auto;
-    min-width: 2.5rem;
-    min-height: 2.5rem;
-    padding: 0.5rem 1rem;
+    min-width: 3rem;
+    min-height: 3rem;
+    padding: 1rem 2rem;
     border: 2px var(--text) solid;
     overflow: hidden;
     box-sizing: border-box;
-    border-radius: .5rem;
-    font-size: .9rem;
+    border-radius: .8rem;
+    font-size: 1.6rem;
     line-height: 2;
     font-weight: 600;
     text-transform: uppercase;
@@ -22,8 +22,8 @@
 }
 @media screen and (--viewport-narrow-max) {
     .button  {
-        font-size: .7rem;
-        margin: 0.5rem 0;
+        font-size: 1.6rem;
+        margin: 1rem 0;
     }
 }
 

@@ -5,7 +5,7 @@
     grid-template-rows: auto;
 }
 .content {
-    padding: 2.5rem 0 0 0;
+    padding: 3rem 0 0 0;
     text-align: left;
     grid-column: 1 / span 2;
     align-self: center;
@@ -15,7 +15,7 @@
     word-wrap: break-word;
     font-family: var(--highlight-font);
     text-transform: lowercase;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
     margin-top: 3rem;
 }
 .home_banner h2 span {
@@ -23,13 +23,13 @@
 }
 
 .home_banner h2 span:first-child {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     color: var(--text);
     line-height: 1;
 }
 
 .home_banner h2 span:nth-child(2) {
-    font-size: 3.5rem;
+    font-size: 4rem;
     max-width: 15rem;
     line-height: 1;
 }
@@ -39,7 +39,7 @@
     font-weight: 800;
     font-family: var(--highlight-font);
     color: var(--text);
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-transform: lowercase;
 }
 .home_banner p span:first-child {
@@ -52,7 +52,7 @@
 .home_banner p {
     margin-bottom: 1.5rem;
     text-transform: lowercase;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 800;
 }
 
@@ -72,16 +72,16 @@
         margin-top: 5rem;
     }
     .home_banner h2 span:first-child {
-        font-size: 4rem;
+        font-size: 10rem;
     }
 
     .home_banner h2 span:nth-child(2) {
-        font-size: 7rem;
+        font-size: 14rem;
         max-width: unset;
     }
 
     .home_banner p span {
-        font-size: 2rem;
+        font-size: 4rem;
         line-height: 1.7rem;
         display: inline-block;
     }
