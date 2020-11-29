@@ -24,14 +24,13 @@
 }
 
 .home_banner h2 span:first-child {
-    font-size: 2.4rem;
+    font-size: 7rem;
     color: var(--text);
     line-height: 1;
 }
 
 .home_banner h2 span:nth-child(2) {
-    font-size: 4rem;
-    max-width: 15rem;
+    font-size: 7rem;
     line-height: 1;
 }
 
@@ -40,7 +39,8 @@
     font-weight: 800;
     font-family: var(--highlight-font);
     color: var(--text);
-    font-size: 4rem;
+    font-size: 2.4rem;
+    line-height: 1.1;
     text-transform: lowercase;
 }
 .home_banner p span:first-child {

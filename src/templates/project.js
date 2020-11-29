@@ -14,6 +14,7 @@ import ContentGrid from "../components/layout/contentgrid";
 import ContentGridItem from "../components/layout/contentgriditem";
 import Bounce from "react-reveal/Bounce";
 import Button from "../components/button";
+import BannerHeading from "../components/bannerheading";
 
 export default ({ data }) => {
     const project = data.markdownRemark.frontmatter
@@ -28,7 +29,7 @@ export default ({ data }) => {
                 <Section id="banner" bg="bg_transparent">
                     <Banner>
                         <Fade duration={2000} left={true} distance="1.6rem">
-                            <h2>{`${project.title}.`}</h2>
+                            <BannerHeading>{`${project.title}.`}</BannerHeading>
                         </Fade>
                         <div>
                             <div style={{position: 'relative'}}>

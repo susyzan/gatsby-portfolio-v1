@@ -39,10 +39,15 @@ body {
 main {
   grid-area: main;
   display: grid;
-  grid-template-rows: minmax(40vh, auto) min-content;
+  grid-template-rows: minmax(30vh, auto) min-content;
   grid-template-areas: 'banner' 'content';
   margin: 0;
   padding: 0;
+}
+@media screen and (--viewport-narrow-min) {
+  main {
+    grid-template-rows: minmax(40vh, auto) min-content;
+  }
 }
 main>div {
   display: contents;
@@ -52,9 +57,9 @@ footer {
 }
 
 .content-container {
-  width: 70%;
+  width: calc(100% - 2rem);
   max-width: var(--content-w-regular);
-  padding: 0 1.6rem;
+  padding: 0 1rem;
   margin: 0 auto;
   position: relative;
   display: grid;
@@ -70,6 +75,10 @@ footer {
 
 @media screen and (--viewport-narrow-min) {
   .content-container-xl {
+    padding: 0 1.6rem;
+  }
+  .content-container {
+    width: 70%;
     padding: 0 1.6rem;
   }
 }
@@ -347,7 +356,7 @@ h2, .h2 {
   color: var(--primary);
   font-weight: 900;
   text-rendering: optimizeLegibility;
-  font-size: 5.6rem;
+  font-size: 4rem;
   line-height: 1.1;
 }
 h3, .h3 {
@@ -363,8 +372,13 @@ h3, .h3 {
   font-family: var(--heading-font);
   font-weight: 800;
   text-rendering: optimizeLegibility;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
+}
+@media screen and (--viewport-narrow-min) {
+  h3, .h3 {
+    font-size: 3rem;
+  }
 }
 h4, .h4 {
   margin-left: 0;
