@@ -8,7 +8,6 @@ const Banner = ({children}) => {
             <div className={styles.content}>
                 {children}
             </div>
-            <div className={styles.banner_image}></div>
         </div>
     )
 

@@ -18,6 +18,7 @@ import RouteAnnouncerHack from "../components/routeAnnouncerHack";
 import ContentGrid from "../components/layout/contentgrid";
 import ContentGridItem from "../components/layout/contentgriditem";
 import FloatingShapes from "../components/floatingshapes";
+import BannerHeading from "../components/bannerheading";
 
 const About = ({data}) => {
     const pageTitle = "About - Susanna Zanatta";
@@ -29,7 +30,7 @@ const About = ({data}) => {
             <Section id="banner" bg="bg_transparent">
                 <Banner>
                     <Fade duration={2000} left={true} distance="1.6rem">
-                        <h2>About.</h2>
+                        <BannerHeading large={true}>About.</BannerHeading>
                     </Fade>
                     <div>
                         <div style={{position: 'relative'}}>

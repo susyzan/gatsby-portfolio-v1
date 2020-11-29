@@ -7,12 +7,12 @@ module.exports = {
     author: `Susanna Zanatta`,
     menuLinks: [
       {
-        name: `Work`,
-        link: `/work`,
-      },
-      {
         name: `About`,
         link: `/about`,
+      },
+      {
+        name: `Work`,
+        link: `/work`,
       },
       {
         name: `Contact`,

@@ -1,6 +1,7 @@
 .content_grid_item {
     padding: 0;
     height: auto;
+    position: relative;
 }
 @media screen and (--viewport-narrow-min) {
     .item_span_2 {
@@ -16,7 +17,7 @@
         grid-column-start: 1;
     }
     .content_grid_item p {
-        max-width: 80%;
+        /*max-width: 80%;*/
     }
 
 }

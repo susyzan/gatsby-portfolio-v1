@@ -2,7 +2,6 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faHeart} from "@fortawesome/free-solid-svg-icons"
 import styles from "./footer.module.css"
-import FloatingShapes from "./floatingshapes";
 
 const Footer = ({menuLinks}) => {
     return (

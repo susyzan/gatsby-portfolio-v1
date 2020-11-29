@@ -1,16 +1,16 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import GatsbyImage from "gatsby-image"
 
 import styles from "./project-card.module.css"
 
 const ProjectCard = ({project}) => {
+    const slug = project.fields.slug
     const fields = project.frontmatter
     return (
         <div className={styles.project_card}>
             <AniLink
                 fade
-                to="/about"
+                to={slug}
                 duration={0.5}
                 className={`${styles.link} anim`}
             >

@@ -1,0 +1,45 @@
+.h2 {
+    font-size: 6rem;
+}
+.intro_copy {
+    margin-bottom: 0;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: var(--font-size-large);
+    line-height: 1.5;
+}
+.employer {
+    display: block;
+    font-weight: 500;
+    font-family: var(--body-font);
+    font-size: var(--font-size-small);
+}
+.mobile_img_container {
+    padding: 2rem 0 2rem 2rem;
+    max-width: 30rem;
+    height: auto;
+}
+.desktop_img_container {
+    padding: 0;
+    max-width: 80%;
+    height: auto;
+}
+.tag_list_container {
+    padding: 1rem 0;
+}
+
+.tag_list {
+    display: block;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.tag_list_item {
+    display: inline-block;
+    padding: 0;
+    background-color: var(--bg-primary);
+    border-radius: .4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    color: var(--primary);
+    font-size: var(--font-size-small);
+}
