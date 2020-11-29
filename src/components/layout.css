@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font-size: 100%;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -53,7 +53,7 @@ footer {
 }
 
 .content-container {
-  width: 100%;
+  width: 70%;
   max-width: var(--content-w-regular);
   padding: 0 1rem;
   margin: 0 auto;
@@ -124,6 +124,7 @@ a.anim:before {
   left: -5%;
   background-color: var(--primary);
   visibility: hidden;
+  transform-origin: 0% 100%;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
 }
@@ -157,7 +158,7 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
+h1, .h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -334,7 +335,7 @@ textarea {
 *:after {
   box-sizing: inherit;
 }
-h2 {
+h2, .h2 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -345,12 +346,12 @@ h2 {
   margin-bottom: 2rem;
   font-family: var(--highlight-font);
   color: var(--primary);
-  font-weight: bold;
+  font-weight: 900;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
 }
-h3 {
+h3, .h3 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -361,12 +362,12 @@ h3 {
   margin-bottom: 2rem;
   color: inherit;
   font-family: var(--heading-font);
-  font-weight: bold;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
 }
-h4 {
+h4, .h4 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -377,12 +378,12 @@ h4 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: var(--heading-font);
-  font-weight: bold;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
 }
-h5 {
+h5, .h5 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -393,12 +394,12 @@ h5 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: var(--heading-font);
-  font-weight: bold;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
 }
-h6 {
+h6, .h6 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -409,10 +410,13 @@ h6 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: var(--heading-font);
-  font-weight: bold;
+  font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: block;
 }
 hgroup {
   margin-left: 0;

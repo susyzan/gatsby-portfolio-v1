@@ -17,9 +17,8 @@
     font-family: var(--highlight-font);
     color: var(--primary);
     font-size: 1.225rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-right: 1rem;
-    font-weight: normal;
 }
 
 .banner_image {
@@ -35,6 +34,6 @@
         padding: 0;
     }
     .banner h2 {
-        font-size: 3.5rem;
+        font-size: 6rem;
     }
 }

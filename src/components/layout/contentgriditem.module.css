@@ -1,5 +1,5 @@
 .content_grid_item {
-    padding: 1rem 0;
+    padding: 0;
     height: auto;
 }
 @media screen and (--viewport-narrow-min) {

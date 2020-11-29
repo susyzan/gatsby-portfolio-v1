@@ -29,7 +29,7 @@ const About = ({data}) => {
             <Section id="banner" bg="bg_transparent">
                 <Banner>
                     <Fade duration={2000} left={true} distance="1rem">
-                        <h2>About Susie</h2>
+                        <h2>About.</h2>
                     </Fade>
                     <div>
                         <div style={{position: 'relative'}}>
@@ -42,7 +42,7 @@ const About = ({data}) => {
                 <ContentGrid>
                     <ContentGridItem full={true} classes="center">
                         <Fade duration={2000} bottom={true} distance="1rem">
-                            <h3>Pretty and accessible, that's how I like it.</h3>
+                            <h3>Pretty and accessible.</h3>
                             <p>Later in my digital career - better late than never, hey - I realised that the full potential of
                                 an inclusive digital world is limitless, and shifted my whole perception around web
                                 accessibility and universal design. Whilst I aim of making my work as accessible as possible, I also want spread the message
@@ -52,7 +52,7 @@ const About = ({data}) => {
                     </ContentGridItem>
                     <ContentGridItem two={true} reverse={false}>
                         <Fade duration={2000} bottom={true} distance="1rem">
-                            <h3>Background</h3>
+                            <h3>Background.</h3>
                             <p>I am dual Italian and Australian citizen and I currently live in Scotland. I lived in Australia
                                 for the past few years where I discovered just how cool the digital side of the world is and
                                 started doing that for a living.</p>

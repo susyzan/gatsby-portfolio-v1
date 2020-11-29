@@ -14,42 +14,33 @@
 .home_banner h2 {
     word-wrap: break-word;
     font-family: var(--highlight-font);
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-right: 1rem;
-    font-weight: normal;
+    margin-top: 3rem;
 }
 .home_banner h2 span {
     display: block;
-    font-weight: normal;
 }
 
 .home_banner h2 span:first-child {
     font-size: 1.8rem;
     color: var(--text);
-    line-height: 1.725;
-    letter-spacing: 1px;
-}
-.home_banner h2 span:nth-child(2) {
-    font-size: 1.225rem;
-    color: var(--text);
     line-height: 1;
-    letter-spacing: 2px;
-    margin-bottom: .8rem;
 }
-.home_banner h2 span:nth-child(3) {
+
+.home_banner h2 span:nth-child(2) {
     font-size: 3.5rem;
-    margin-bottom: .6rem;
     max-width: 15rem;
+    line-height: 1;
 }
 
 .home_banner p span {
     display: block;
-    font-weight: normal;
+    font-weight: 800;
     font-family: var(--highlight-font);
     color: var(--text);
-    font-size: 1.3rem;
-    line-height: 1.2;
-    letter-spacing: 2px;
+    font-size: 2.5rem;
+    text-transform: lowercase;
 }
 .home_banner p span:first-child {
     color: var(--text);
@@ -60,6 +51,9 @@
 
 .home_banner p {
     margin-bottom: 1.5rem;
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 .banner_image {
@@ -74,20 +68,20 @@
     }
     .home_banner h2 {
         margin-left: 0;
+        line-height: 1;
+        margin-top: 5rem;
     }
     .home_banner h2 span:first-child {
-        font-size: 1.8rem;
+        font-size: 4rem;
     }
+
     .home_banner h2 span:nth-child(2) {
-        font-size: 2.3rem;
-    }
-    .home_banner h2 span:nth-child(3) {
-        font-size: 6.125rem;
+        font-size: 7rem;
         max-width: unset;
     }
 
     .home_banner p span {
-        font-size: 1.5rem;
+        font-size: 2rem;
         line-height: 1.7rem;
         display: inline-block;
     }

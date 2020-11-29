@@ -6,19 +6,20 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');*/
 :root {
   /* Fonts */
-  --sans-serif: 'Raleway', Helvetica, Arial, sans-serif;
+  --sans-serif: 'Lato', Helvetica, Arial, sans-serif;
   --serif: 'Playfair Display', serif;
-  --mono: 'Monoton', monospace;
+  --mono: 'Montserrat', monospace;
   --primary-font: var(--sans-serif);
   --highlight-font: var(--mono);
   --body-font: var(--primary-font);
-  --heading-font: var(--sans-serif);
+  --heading-font: var(--mono);
 
   --font-light: 300;
   --font-normal: 400;
   --font-semibold: 500;
   --font-bold: 700;
   --font-black: 800;
+  --font-x-black: 900;
 
   --base-font-size: 1rem;
   --small-font-size: .75rem;
@@ -31,6 +32,7 @@
   --brink-pink: hsl(356, 100%, 76%);
   --brink-pink-alpha: hsla(356, 100%, 76%, .8);
   --lavender: hsl(332, 22%, 38%);
+  --lavender-alpha: hsla(332, 22%, 38%, .3);
   --cornsilk: hsl(60, 39%, 94%);
   --cornsilk-alpha: hsla(60, 39%, 94%, .5);
   --middle-blue-green: hsl(204, 24%, 52%);
@@ -50,9 +52,13 @@
   --primary: var(--brink-pink);
   --primary-alpha: var(--brink-pink-alpha);
   --secondary: var(--middle-blue-green);
+  --tertiary: var(--lavender);
+  --tertiary-alpha: var(--lavender-alpha);
   --quarternary: var(--cornsilk);
   --bg-primary: var(--darkest-gray);
   --bg-primary-alpha: hsla(220, 15%, 8%,.8);
+  --bg-secondary: var(--tertiary);
+  --bg-secondary-alpha: var(--tertiary-alpha);
   --bg-tertiary: var(--cornsilk);
   --text: var(--cornsilk);
   --text-alpha: var(--cornsilk-alpha);
@@ -71,7 +77,7 @@
   /* Sizes and widths */
   --content-w-xwide: 80rem;
   --content-w-wide: 70rem;
-  --content-w-regular: 60rem;
+  --content-w-regular: 56rem;
   --content-w-narrow: 40rem;
 
 }

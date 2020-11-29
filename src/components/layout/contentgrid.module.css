@@ -3,8 +3,11 @@
     width: 100%;
     margin: 0 auto 3rem auto;
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     grid-auto-flow: dense;
+}
+.no_gap {
+    grid-gap: 0;
 }
 
 @media screen and (--viewport-narrow-min) {

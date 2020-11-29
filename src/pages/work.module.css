@@ -1,0 +1,10 @@
+.project_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: fit-content;
+}
+.project_item {
+    margin: 0;
+    padding: 0;
+}
