@@ -1,12 +1,16 @@
 import React from "react"
 import styles from "./footer.module.css"
+import Contact from "./contact";
 
 const Footer = ({menuLinks}) => {
     return (
         <footer id="footer" className={styles.footer}>
-            <div className="content-container">
+            <div className="content-container-xl">
                 <div className={styles.copy}>
-                    ©{new Date().getFullYear()} Susanna Zanatta
+                    <span>
+                        ©{new Date().getFullYear()} Susanna Zanatta
+                    </span>
+                    <Contact/>
                 </div>
             </div>
         </footer>

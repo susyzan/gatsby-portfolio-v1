@@ -24,17 +24,17 @@ body {
 
 .main-wrapper {
   display: grid;
-  min-height: 85vh;
+  min-height: 100vh;
   grid-template-rows: 1fr min-content;
   grid-template-columns: 1fr;
   grid-template-areas: 'main' 'footer';
 }
 
-@media screen and (--viewport-narrow-min) {
-  .main-wrapper {
-    min-height: 100vh;
-  }
-}
+/*@media screen and (--viewport-narrow-min) {*/
+/*  .main-wrapper {*/
+/*    */
+/*  }*/
+/*}*/
 
 main {
   grid-area: main;

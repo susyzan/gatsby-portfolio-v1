@@ -5,20 +5,33 @@
     font-weight: 300;
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-height: 3rem;
+    grid-template-columns: auto;
+    padding: 0 1.5rem;
+}
+
+.footer:before {
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 100%;
+    z-index: 0;
+    top: -2rem;
+    background: linear-gradient(180deg, rgba(25,29,35,0) 20%, rgba(25,29,35,1) 100%), bottom;
 }
 
 .copy {
+    display: grid;
+    grid-template-columns: auto auto;
     font-size: 70%;
     text-transform: uppercase;
     color: var(--text-alpha);
     font-weight: 800;
+    padding: 1rem 0;
+    align-items: center;
 }
 
 @media screen and (--viewport-narrow-min) {
     .footer {
-        max-height: 5rem;
+        padding: 0;
     }
 }

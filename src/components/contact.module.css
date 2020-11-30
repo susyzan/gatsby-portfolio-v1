@@ -1,7 +1,15 @@
+.social_wrapper {
+    text-align: right;
+}
 .social {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    display: inline;
+    padding: 1rem 0;
+    margin-left: 1.5rem;
     color: var(--text-alpha);
     transition: color 500ms ease-in-out;
+    text-align: right;
+    text-decoration: none;
 }
 
 .social:hover {
