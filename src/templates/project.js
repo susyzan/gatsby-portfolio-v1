@@ -1,20 +1,22 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
-
-import Layout from "../components/layout"
-import RouteAnnouncerHack from "../components/routeAnnouncerHack";
-import SEO from "../components/seo";
-import Banner from "../components/banner";
+import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
-import FloatingShapes from "../components/floatingshapes";
-import Section from "../components/section";
-import styles from "./project.module.css"
+import Img from "gatsby-image"
+import RouteAnnouncerHack from "../components/routeAnnouncerHack";
+
+import Banner from "../components/banner";
+import BannerHeading from "../components/bannerheading";
+import Button from "../components/button";
 import ContentGrid from "../components/layout/contentgrid";
 import ContentGridItem from "../components/layout/contentgriditem";
-import Bounce from "react-reveal/Bounce";
-import Button from "../components/button";
-import BannerHeading from "../components/bannerheading";
+import FloatingShapes from "../components/floatingshapes";
+import Layout from "../components/layout"
+import Section from "../components/section";
+import SEO from "../components/seo";
+
+import styles from "./project.module.css"
+
 
 export default ({ data }) => {
     const project = data.markdownRemark.frontmatter
@@ -121,7 +123,6 @@ export const query = graphql`
                 subtitle
                 client
                 employer
-                subject
                 tech
                 imgArray {
                     img {

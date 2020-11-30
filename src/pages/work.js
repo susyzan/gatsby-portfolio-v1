@@ -1,21 +1,22 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import { graphql } from "gatsby"
+import RouteAnnouncerHack from "../components/routeAnnouncerHack"
 
-import "../styles/reset.css"
 import "../styles/accessibility.css"
 import "../styles/global.module.css"
+import "../styles/reset.css"
+
+import Banner from "../components/banner"
+import BannerHeading from "../components/bannerheading"
+import FloatingShapes from "../components/floatingshapes"
+import Layout from "../components/layout"
+import ProjectCard from "../components/project-compponents/project-card"
+import Section from "../components/section"
+import SEO from "../components/seo"
+
 
 import styles from "./work.module.css"
-
-import Layout from "../components/layout"
-import Section from "../components/section"
-import Banner from "../components/banner"
-import SEO from "../components/seo"
-import RouteAnnouncerHack from "../components/routeAnnouncerHack"
-import FloatingShapes from "../components/floatingshapes"
-import ProjectCard from "../components/project-compponents/project-card"
-import BannerHeading from "../components/bannerheading"
 
 const Work = ({data}) => {
     const pageTitle = "Work - Susanna Zanatta";

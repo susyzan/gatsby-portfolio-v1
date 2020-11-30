@@ -2,10 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import SkipLinks from "./skiplinks"
-import Footer from "./footer"
 import "./layout.css"
+
+import Header from "./header"
+import Footer from "./footer"
+import SkipLinks from "./skiplinks"
+
 import PageTransition from "gatsby-v2-plugin-page-transitions";
 
 const Layout = ({ children, pageTitle }) => {

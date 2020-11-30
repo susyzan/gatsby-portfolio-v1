@@ -1,24 +1,25 @@
 import React from "react"
 import { graphql } from 'gatsby'
-import Img from "gatsby-image"
-import Fade from 'react-reveal/Fade'
 import Bounce from 'react-reveal/Bounce'
+import Fade from 'react-reveal/Fade'
+import Img from "gatsby-image"
 
-import "../styles/reset.css"
+import RouteAnnouncerHack from "../components/routeAnnouncerHack";
+
+import "./about.css"
 import "../styles/accessibility.css"
 import "../styles/global.module.css"
-import "./about.css"
+import "../styles/reset.css"
 
-import Layout from "../components/layout"
-import Section from "../components/section"
 import Banner from "../components/banner"
-import SEO from "../components/seo"
+import BannerHeading from "../components/bannerheading";
 import Button from "../components/button";
-import RouteAnnouncerHack from "../components/routeAnnouncerHack";
 import ContentGrid from "../components/layout/contentgrid";
 import ContentGridItem from "../components/layout/contentgriditem";
 import FloatingShapes from "../components/floatingshapes";
-import BannerHeading from "../components/bannerheading";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Section from "../components/section"
 
 const About = ({data}) => {
     const pageTitle = "About - Susanna Zanatta";

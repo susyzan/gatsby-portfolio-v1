@@ -1,16 +1,16 @@
 import React from "react"
 import { graphql } from 'gatsby'
+import RouteAnnouncerHack from "../components/routeAnnouncerHack"
 
-import "../styles/reset.css"
 import "../styles/accessibility.css"
 import "../styles/global.module.css"
+import "../styles/reset.css"
 
+import HomeBanner from "../components/homebanner"
+import FloatingShapes from "../components/floatingshapes";
 import Layout from "../components/layout"
 import Section from "../components/section"
-import HomeBanner from "../components/homebanner"
 import SEO from "../components/seo"
-import FloatingShapes from "../components/floatingshapes";
-import RouteAnnouncerHack from "../components/routeAnnouncerHack"
 
 const IndexPage = ({data}) => {
     const pageTitle = "Susanna Zanatta - Home";
