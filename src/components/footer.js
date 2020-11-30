@@ -1,6 +1,4 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faHeart} from "@fortawesome/free-solid-svg-icons"
 import styles from "./footer.module.css"
 
 const Footer = ({menuLinks}) => {
@@ -8,7 +6,7 @@ const Footer = ({menuLinks}) => {
         <footer id="footer" className={styles.footer}>
             <div className="content-container">
                 <div className={styles.copy}>
-                    © {new Date().getFullYear()}, made with <FontAwesomeIcon icon={faHeart} title="love"/> by Susie
+                    ©{new Date().getFullYear()} Susanna Zanatta
                 </div>
             </div>
         </footer>

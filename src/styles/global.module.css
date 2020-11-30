@@ -32,19 +32,26 @@
   --middle-blue-green: hsl(204, 24%, 52%);
   --middle-blue-green-alpha: hsla(204, 24%, 52%, .5);
 
+  --jasmine: hsl(47, 100%, 75%);
+  --jasmine-alpha: hsla(47, 100%, 75%, .8);
+  --outrageous-orange: hsl(14, 100%, 65%);
+  --outrageous-orange-alpha: hsla(14, 100%, 65%, .8);
+  --light-slate-gray: hsl(207, 16%, 56%);
+  --light-slate-gray-alpha: hsla(207, 16%, 56%, .5);
+
   /* Grays */
   --white: 	hsl(0, 0%, 100%);
   --light-gray: var(--cultured);
-  --darkest-gray: hsl(220, 15%, 8%);
+  --darkest-gray: hsl(220, 15%, 12%);
   --rich-black: var(--darkest-gray);
   --black: hsl(0, 0%, 0%);
 
   /* Theme */
-  --primary: var(--brink-pink);
-  --primary-alpha: var(--brink-pink-alpha);
-  --secondary: var(--middle-blue-green);
-  --tertiary: var(--lavender);
-  --tertiary-alpha: var(--lavender-alpha);
+  --primary: var(--jasmine);
+  --primary-alpha: var(--jasmine-alpha);
+  --secondary: var(--outrageous-orange);
+  --tertiary: var(--light-slate-gray);
+  --tertiary-alpha: var(--light-slate-gray-alpha);
   --quarternary: var(--cornsilk);
   --bg-primary: var(--darkest-gray);
   --bg-primary-alpha: hsla(220, 15%, 8%,.8);
@@ -53,12 +60,12 @@
   --bg-tertiary: var(--cornsilk);
   --text: var(--cornsilk);
   --text-alpha: var(--cornsilk-alpha);
-  --focus-outline: var(--brink-pink);
+  --focus-outline: var(--primary);
 
   /* Sizes and widths */
   --content-w-xwide: 1600px;
   --content-w-wide: 1200px;
-  --content-w-regular: 1000px;
+  s--content-w-regular: 1000px;
   --content-w-narrow: 720px;
 
 }

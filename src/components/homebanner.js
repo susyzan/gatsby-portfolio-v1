@@ -13,7 +13,7 @@ const HomeBanner = () => {
                     <h2><span>Hello.</span> <span>I'm Susie.</span></h2>
                     <p><span>I'm a digital</span> <span>developer.</span></p>
                 </Fade>
-                <Bounce delay={900} duration={1000} bottom={true}>
+                <Bounce delay={500} duration={1000} bottom={true}>
                     <Button
                         to="/about"
                         animcolor="#774c60"

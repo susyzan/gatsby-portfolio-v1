@@ -42,7 +42,7 @@ const About = ({data}) => {
             </Section>
             <Section bg="bg_transparent">
                 <ContentGrid>
-                    <ContentGridItem full={true} classes="center">
+                    <ContentGridItem two={true} classes="center">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h3>Pretty and accessible.</h3>
                             <p>Later in my digital career - better late than never, hey - I realised that the full potential of
@@ -64,21 +64,21 @@ const About = ({data}) => {
                             <p>Outside of work, I like to learn new stuff. I currently study towards a Bachelor Degree in IT
                                 and Data Analytic. No need to say I am also coffee, beer, wine and food lover. So yeah, I do that as well.</p>
                         </Fade>
-                        <Bounce delay={800} duration={800} bottom={true}>
+                        <Bounce delay={500} duration={800} bottom={true}>
                             <Button
                                 to="/work"
                                 floating={true}
                             >show me your stuff</Button>
                         </Bounce>
                     </ContentGridItem>
-                    <ContentGridItem  classes="image-container">
-                        <Bounce duration={800} delay={500} bottom={true}>
-                            <Img fluid={data.firstImage.childImageSharp.fluid} alt="Mixed Tape 1978" className="floating-image"/>
-                        </Bounce>
-                        <div style={{position: 'relative'}}>
-                            <FloatingShapes />
-                        </div>
-                    </ContentGridItem>
+                    {/*<ContentGridItem  classes="image-container">*/}
+                    {/*    <Bounce duration={800} delay={500} bottom={true}>*/}
+                    {/*        <Img fluid={data.firstImage.childImageSharp.fluid} alt="Mixed Tape 1978" className="floating-image"/>*/}
+                    {/*    </Bounce>*/}
+                    {/*    <div style={{position: 'relative'}}>*/}
+                    {/*        <FloatingShapes />*/}
+                    {/*    </div>*/}
+                    {/*</ContentGridItem>*/}
                 </ContentGrid>
             </Section>
         </Layout>

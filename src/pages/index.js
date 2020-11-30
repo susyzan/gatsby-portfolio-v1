@@ -19,7 +19,7 @@ const IndexPage = ({data}) => {
             {/*remove this line if not using page transition to navigate to this page*/}
             <RouteAnnouncerHack title={pageTitle}/>
             <SEO title={pageTitle} />
-            <Section bg="home_bg_image">
+            <Section bg="bg_transparent">
                 <HomeBanner data={data}/>
                 <FloatingShapes/>
             </Section>

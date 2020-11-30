@@ -2,6 +2,7 @@ import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import PropTypes from "prop-types"
 
+import Logo from "./logo"
 import MainNav from "./mainnav"
 import style from "./header.module.css"
 
@@ -15,10 +16,10 @@ const Header = ({ headerTitleSm, headerTitle, pageTitle,  menuLinks }) => (
                     to="/"
                     duration={0.8}
                     className={""}
-                    hex="#ff858d"
+                    hex="#ff784f"
                 >
                     <h1>
-                        <span className={style.site_title_sm} aria-label={headerTitle} aria-hidden={true}>{headerTitleSm}</span>
+                        <Logo/>
                         <span className="sr-only">{` ${headerTitle} - ${pageTitle}`}</span>
                     </h1>
                 </AniLink>

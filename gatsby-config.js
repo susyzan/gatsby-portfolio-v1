@@ -14,10 +14,6 @@ module.exports = {
         name: `Work`,
         link: `/work`,
       },
-      {
-        name: `Contact`,
-        link: `/contact`,
-      },
     ],
   },
   plugins: [

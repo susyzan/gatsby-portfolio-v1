@@ -15,7 +15,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: var(--primary);
+    background: var(--text);
     animation: animate 25s linear infinite;
     bottom: calc(-150px);
     z-index: 0;
@@ -29,7 +29,7 @@
     animation-delay: 0s;
     animation-duration: 20s;
     border-radius: 50%;
-    background: var(--lavender);
+    background: var(--text-alpha);
 }
 
 .circles span:nth-child(2) {
@@ -59,7 +59,7 @@
     animation-delay: 0s;
     animation-duration: 15s;
     border-radius: 50%;
-    background: var(--lavender);
+    background: var(--text-alpha);
 }
 
 .circles span:nth-child(5) {
@@ -80,7 +80,7 @@
     animation-delay: 0s;
     animation-duration: 25s;
     border-radius: 50%;
-    background: var(--lavender);
+    background: var(--text-alpha);
 }
 
 .circles span:nth-child(7) {
@@ -100,7 +100,7 @@
     animation-duration: 50s;
     border-radius: 50%;
     animation-direction: reverse;
-    background: var(--lavender);
+    background: var(--text-alpha);
 }
 
 .circles span:nth-child(9) {

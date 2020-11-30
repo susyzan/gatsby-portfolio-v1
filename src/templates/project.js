@@ -100,7 +100,7 @@ export default ({ data }) => {
                                 ))}
                         </ContentGridItem>
                         <ContentGridItem>
-                            <Bounce delay={800} duration={800} bottom={true}>
+                            <Bounce duration={800} bottom={true}>
                                 <Button
                                     to="/work"
                                     floating={true}

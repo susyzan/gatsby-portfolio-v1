@@ -1,7 +1,6 @@
 .footer {
     position: relative;
     grid-area: footer;
-    background: linear-gradient(180deg, rgba(17,19,23,0) 50%, rgba(17,19,23,.8) 100%);
     font-size: 100%;
     font-weight: 300;
     text-align: left;
@@ -13,6 +12,9 @@
 
 .copy {
     font-size: 70%;
+    text-transform: uppercase;
+    color: var(--text-alpha);
+    font-weight: 800;
 }
 
 @media screen and (--viewport-narrow-min) {

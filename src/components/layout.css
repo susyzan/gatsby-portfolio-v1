@@ -57,7 +57,7 @@ footer {
 }
 
 .content-container {
-  width: calc(100% - 2rem);
+  width: calc(100% - 5rem);
   max-width: var(--content-w-regular);
   padding: 0 1rem;
   margin: 0 auto;
@@ -126,15 +126,18 @@ a.anim {
 a.anim:before {
   content: "";
   position: absolute;
-  width: 110%;
+  width: 75%;
   height: 8px;
   bottom: 6px;
-  left: -5%;
+  left: -2%;
   background-color: var(--primary);
   visibility: hidden;
   transform-origin: 0% 100%;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
+}
+a.anim.active:before {
+  background-color: var(--primary);
 }
 a.anim:hover:before,
 a.anim.active:before {

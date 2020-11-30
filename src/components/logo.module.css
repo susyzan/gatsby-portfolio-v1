@@ -1,0 +1,27 @@
+.logo span {
+    display: block;
+    padding: 1px;
+}
+.logo svg {
+    width: 1.8rem;
+    height: 2rem;
+}
+.logo svg g {
+    transition: all 500ms ease-in-out;
+    fill: var(--primary) !important;
+    stroke: var(--primary) !important;
+}
+.logo:hover svg g {
+    fill: var(--secondary) !important;
+    stroke: var(--secondary) !important;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .logo svg {
+        width: 2rem;
+        height: 2.6rem;
+    }
+    .logo span {
+        display: inline-block;
+    }
+}

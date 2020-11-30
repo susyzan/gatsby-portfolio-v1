@@ -24,7 +24,7 @@
 .button:hover,
 .button:focus {
     box-shadow: inset 2px 2px 0 1px var(--bg-primary);
-    background-color: var(--brink-pink);
+    background-color: var(--primary);
     color: var(--bg-primary);
 }
 
