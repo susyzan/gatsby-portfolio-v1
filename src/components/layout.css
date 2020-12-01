@@ -370,7 +370,7 @@ h3, .h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 2.6rem;
   color: inherit;
   font-family: var(--heading-font);
   font-weight: 700;
@@ -381,6 +381,7 @@ h3, .h3 {
 @media screen and (--viewport-narrow-min) {
   h3, .h3 {
     font-size: 3rem;
+    margin-bottom: 4rem;
   }
 }
 h4, .h4 {

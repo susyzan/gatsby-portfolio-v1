@@ -1,32 +1,49 @@
+.about_text_block {
+   margin-bottom: 3rem;
+}
+
 .image-container {
     align-self: center;
 }
 
-.floating-image {
-    transform: translatey(0px) rotate(35deg);
-    animation: float 5s ease-in-out infinite;
+.tech {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.tech span {
+    font-size: 3.5rem;
+    padding: 1rem 1.5rem;
+    display: inline-block;
     position: relative;
-    opacity: 0.8;
+}
+.tech span svg {
+    animation: float 5s ease-in-out infinite;
+}
+.tech span:nth-child(2) svg {
+    animation: float 6s ease-in-out infinite;
+}
+.tech span:nth-child(4) svg {
+    animation: float 4s ease-in-out infinite;
+}
+.tech span:nth-child(6) svg {
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
     0% {
-        transform: translatey(0px) rotate(35deg);
+        transform: translatey(0px);
     }
     50% {
-        transform: translatey(-10px) rotate(40deg);
+        transform: translatey(-5px);
     }
     100% {
-        transform: translatey(0px) rotate(35deg);
+        transform: translatey(0px);
     }
 }
 
 @media screen and (--viewport-narrow-min) {
-    .floating-image {
-        transform: translatey(0px) rotate(35deg);
-        animation: float 5s ease-in-out infinite;
-        left: -40%;
-        bottom: -10rem;
-        width: 150%;
+    .about_text_block {
+        margin-bottom: 4rem;
     }
 }

@@ -9,19 +9,19 @@ const Contact = ({children}) => {
     return (
         <div className={styles.social_wrapper}>
             <Link className={styles.social}
-                  to="https://www.linkedin.com/in/susannazanatta/"
-                  target="_blank"
-                  aria-label="Visit my LinkedIn profile, opens in a new tab"
+                to="https://www.linkedin.com/in/susannazanatta/"
+                target="_blank"
+                aria-label="Visit my LinkedIn profile, opens in a new tab"
             >
                 <FontAwesomeIcon icon={faLinkedinIn} title="LinkedIn" aria-hidden="true"/>
             </Link>
-            <Link className={styles.social}
-                  to="mailto:susanna.zanatta@gmail.com"
-                  target="_blank"
-                  aria-label="Email me, opens email client"
+            <a className={styles.social}
+                href="mailto:susanna.zanatta@gmail.com"
+                aria-label="Email me, opens email client"
+                rel="noreferrer"
             >
-                <FontAwesomeIcon icon={faPaperPlane} title="LinkedIn" aria-hidden="true"/>
-            </Link>
+                <FontAwesomeIcon icon={faPaperPlane} title="Email" aria-hidden="true"/>
+            </a>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 ---
 sort: 300
 title: Cross River Rail
-subtitle: WordPress Theme
+subtitle: Corporate Website
 client: Cross River Rail - Queensland Government
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP"]
