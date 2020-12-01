@@ -84,30 +84,30 @@ export default ({ data }) => {
                             </Fade>
                         </ContentGridItem>
                     </ContentGrid>
-                    <ContentGrid>
-                        <ContentGridItem full={true}>
-                            <Fade duration={500} bottom={true} distance="1rem">
-                                <div dangerouslySetInnerHTML={{ __html: html}}  style={{
-                                    paddingTop: `3rem`
-                                }}/>
-                            </Fade>
-                        </ContentGridItem>
-                        <ContentGridItem full={true}>
-                                {project.imgArray.map((image, i) => (
-                                    <figure key={`image-${i}`}>
-                                        <Img fluid={image.img.childImageSharp.fluid} alt={image.alt}/>
+                    <div className={styles.project_description}>
+                        <ContentGrid>
+                            <ContentGridItem two={true}>
+                                <Fade duration={500} bottom={true} distance="1rem">
+                                    <div dangerouslySetInnerHTML={{ __html: html}}  style={{
+                                        paddingTop: `3rem`
+                                    }}/>
+                                </Fade>
+                            </ContentGridItem>
+                            {project.imgArray.map((image, i) => (
+                                <ContentGridItem key={`image-${i}`}>
+                                    <figure>
+                                        <Img fluid={image.img.childImageSharp.fluid} alt={image.alt} className={styles.project_description_image}/>
                                     </figure>
-                                ))}
-                        </ContentGridItem>
-                        <ContentGridItem>
-                            <Bounce duration={800} bottom={true}>
-                                <Button
-                                    to="/work"
-                                    floating={true}
-                                >Go back</Button>
-                            </Bounce>
-                        </ContentGridItem>
-                    </ContentGrid>
+                                </ContentGridItem>
+                            ))}
+                        </ContentGrid>
+                    </div>
+                    <Bounce duration={800} bottom={true}>
+                        <Button
+                            to="/work"
+                            floating={true}
+                        >Go back</Button>
+                    </Bounce>
                 </Section>
             </article>
         </Layout>
@@ -133,13 +133,6 @@ export const query = graphql`
                         }
                     }
                     alt
-                }
-                thumbnail {
-                    childImageSharp {
-                        fluid(maxWidth: 500) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }  
                 }
                 desktop {
                     childImageSharp {

@@ -1,17 +1,16 @@
 ---
-sort: 3
-title: Healthy Habit Selector
-subtitle: Landing Pageg
-client: Queensland Government - Health Dep
+sort: 200
+title: Bisolvon
+subtitle: WordPress Theme
+client: Sanofi Australia
 employer: Publicis Worldwide
-tech: ["WordPress", "Bootstrap", "Less", "jQuery", "PHP"]
-thumbnail: healthy-habit-selector-thumb.png
-desktop: healthy-habit-selector-desktop.png
-mobile: healthy-habit-selector-mobile.png
-intro: Interactive landing page for the Queensland Government Health Department.
+tech: ["WordPress", "CSS", "jQuery", "PHP"]
+desktop: bisolvon-desktop.png
+mobile: bisolvon-mobile.png
+intro: Dead simple custom WordPress theme
 url: https://www.healthier.qld.gov.au/happy-healthy/
 imgArray:
- - {img: "healthy-habit-selector-full-page.png", alt: "What makes you happy? Select three #happyHealthyHabits you like doing."}
+ - {img: "bisolvon-full-page.png", alt: "What makes you happy? Select three #happyHealthyHabits you like doing."}
 ---
 
 ### Project description

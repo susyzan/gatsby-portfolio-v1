@@ -2,6 +2,7 @@
     padding: 0;
     height: auto;
     position: relative;
+    grid-column: auto;
 }
 @media screen and (--viewport-narrow-min) {
     .item_span_2 {

@@ -42,6 +42,10 @@
     color: var(--primary);
     font-size: var(--font-size-small);
 }
+.project_description_image {
+    max-width: 100rem;
+    border-radius: .4rem;
+}
 
 @media screen and (--viewport-narrow-min) {
     .intro_copy {

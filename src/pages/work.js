@@ -79,16 +79,6 @@ export const query = graphql`
                         client
                         title
                         subtitle
-                        thumbnail {
-                            childImageSharp {
-                                fixed {
-                                    src
-                                }
-                                fluid(maxWidth: 1360) {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
                     }
                 }
             }

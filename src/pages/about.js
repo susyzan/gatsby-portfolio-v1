@@ -2,9 +2,8 @@ import React from "react"
 import { graphql } from 'gatsby'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
-import Img from "gatsby-image"
 
-import RouteAnnouncerHack from "../components/routeAnnouncerHack";
+import RouteAnnouncerHack from "../components/routeAnnouncerHack"
 
 import "./about.css"
 import "../styles/accessibility.css"
@@ -12,17 +11,17 @@ import "../styles/global.module.css"
 import "../styles/reset.css"
 
 import Banner from "../components/banner"
-import BannerHeading from "../components/bannerheading";
-import Button from "../components/button";
-import ContentGrid from "../components/layout/contentgrid";
-import ContentGridItem from "../components/layout/contentgriditem";
-import FloatingShapes from "../components/floatingshapes";
+import BannerHeading from "../components/bannerheading"
+import Button from "../components/button"
+import ContentGrid from "../components/layout/contentgrid"
+import ContentGridItem from "../components/layout/contentgriditem"
+import FloatingShapes from "../components/floatingshapes"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Section from "../components/section"
 
 const About = ({data}) => {
-    const pageTitle = "About - Susanna Zanatta";
+    const pageTitle = "About - Susanna Zanatta"
     return (
         <Layout pageTitle={pageTitle}>
             {/*remove this line if not using page transition to navigate to this page*/}

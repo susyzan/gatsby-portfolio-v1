@@ -1,20 +1,18 @@
 ---
-sort: 3
-title: Healthy Habit Selector
-subtitle: Landing Page
-client: Queensland Government - Health Dep
+sort: 100
+title: Assisterhood
+subtitle: WordPress Theme
+client: Assisterhood
 employer: Publicis Worldwide
-tech: ["WordPress", "Bootstrap", "Less", "jQuery", "PHP"]
-thumbnail: healthy-habit-selector-thumb.png
-desktop: healthy-habit-selector-desktop.png
-mobile: healthy-habit-selector-mobile.png
-intro: Interactive landing page for the Queensland Government Health Department.
-url: https://www.healthier.qld.gov.au/happy-healthy/
+tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP", "Mail Chimp"]
+desktop: assisterhood-desktop.png
+mobile: assisterhood-mobile.png
+intro: Custom WordPress theme with Mail Chimp integration 
+url: https://www.assisterhood.com.au
 imgArray:
- - {img: "healthy-habit-selector-full-page.png", alt: "What makes you happy? Select three #happyHealthyHabits you like doing."}
+ - {img: "assisterhood-full-page.png", alt: "Fullpage screenshot of the Assisterhood homepage for mobile and desktop."}
 ---
 
 ### Project description
 
-This landing page template was coded from Sketch files and created on top of the existing client's **WordPress** web site.
-The page is built using **Bootstrap** and all the magic happens thanks to **jQuery** and a huge bunch of custom tags.
+Custom theme built and tested in no time from PDS design files. The theme is powered by Bootstrap and includes a custom form integrated with MailcChimp. A custom EDM template was also created as part of this project.
