@@ -13,6 +13,6 @@ imgArray:
  - {img: "assisterhood-full-page.png", alt: "Fullpage screenshot of the Assisterhood homepage for mobile and desktop."}
 ---
 
-### About this project
+## About this project
 
 Custom theme built and tested in no time from PDS design files. The theme is powered by Bootstrap and includes a custom form integrated with MailcChimp. A custom EDM template was also created as part of this project.

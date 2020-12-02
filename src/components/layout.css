@@ -182,9 +182,10 @@ h1, .h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 6rem;
-  color: var(--brink-pink);
-  font-family: var(--heading-font);
+  margin-bottom: 3.6rem;
+  font-family: var(--highlight-font);
+  color: var(--primary);
+  font-weight: 900;
   text-rendering: optimizeLegibility;
   font-size: 4.2rem;
   line-height: 1.1;
@@ -359,14 +360,21 @@ h2, .h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 3.6rem;
-  font-family: var(--highlight-font);
-  color: var(--primary);
-  font-weight: 900;
+  margin-bottom: 2.6rem;
+  color: inherit;
+  font-family: var(--heading-font);
+  font-weight: 700;
   text-rendering: optimizeLegibility;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
+@media screen and (--viewport-narrow-min) {
+  h2, .h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
 h3, .h3 {
   margin-left: 0;
   margin-right: 0;
@@ -380,15 +388,10 @@ h3, .h3 {
   font-family: var(--heading-font);
   font-weight: 700;
   text-rendering: optimizeLegibility;
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 1.1;
 }
-@media screen and (--viewport-narrow-min) {
-  h3, .h3 {
-    font-size: 3rem;
-    margin-bottom: 4rem;
-  }
-}
+
 h4, .h4 {
   margin-left: 0;
   margin-right: 0;

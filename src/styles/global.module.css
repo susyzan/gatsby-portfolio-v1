@@ -22,22 +22,17 @@
   /* Colours */
   --cultured: hsl(0, 0%, 96%);
   --cultured-alpha: hsla(0, 0%, 96%, .95);
-  --gainsboro: hsl(220, 14%, 96%);
-  --brink-pink: hsl(356, 100%, 76%);
-  --brink-pink-alpha: hsla(356, 100%, 76%, .8);
-  --lavender: hsl(332, 22%, 38%);
-  --lavender-alpha: hsla(332, 22%, 38%, .3);
   --cornsilk: hsl(60, 39%, 94%);
   --cornsilk-alpha: hsla(60, 39%, 94%, .5);
-  --middle-blue-green: hsl(204, 24%, 52%);
-  --middle-blue-green-alpha: hsla(204, 24%, 52%, .5);
 
   --jasmine: hsl(47, 100%, 75%);
   --jasmine-alpha: hsla(47, 100%, 75%, .8);
   --outrageous-orange: hsl(14, 100%, 65%);
   --outrageous-orange-alpha: hsla(14, 100%, 65%, .8);
-  --light-slate-gray: hsl(207, 16%, 56%);
-  --light-slate-gray-alpha: hsla(207, 16%, 56%, .5);
+  --baby-pink: hsl(352, 58%, 84%);
+  --baby-pink-alpha: hsla(352, 58%, 84%,.8);
+  --green-sheen: hsl(168, 25%, 58%);
+  --green-sheen-alpha: hsla(168, 25%, 58%, .5);
 
   /* Grays */
   --white: 	hsl(0, 0%, 100%);
@@ -49,9 +44,9 @@
   /* Theme */
   --primary: var(--jasmine);
   --primary-alpha: var(--jasmine-alpha);
-  --secondary: var(--outrageous-orange);
-  --tertiary: var(--light-slate-gray);
-  --tertiary-alpha: var(--light-slate-gray-alpha);
+  --secondary: var(--baby-pink);
+  --tertiary: var(--baby-pink);
+  --tertiary-alpha: var(--baby-pink-alpha);
   --quarternary: var(--cornsilk);
   --bg-primary: var(--darkest-gray);
   --bg-primary-alpha: hsla(220, 15%, 8%,.8);
@@ -65,7 +60,7 @@
   /* Sizes and widths */
   --content-w-xwide: 1600px;
   --content-w-wide: 1200px;
-  s--content-w-regular: 1000px;
+  --content-w-regular: 1000px;
   --content-w-narrow: 720px;
 
 }

@@ -11,7 +11,7 @@
     align-self: center;
     z-index: 1;
 }
-.home_banner h2 {
+.home_banner h1 {
     word-wrap: break-word;
     font-family: var(--highlight-font);
     text-transform: lowercase;
@@ -19,17 +19,17 @@
     margin-top: 3rem;
     margin-bottom: 1.2rem;
 }
-.home_banner h2 span {
+.home_banner h1 span {
     display: block;
 }
 
-.home_banner h2 span:first-child {
+.home_banner h1 span:first-child {
     font-size: 7rem;
     color: var(--text);
     line-height: 1;
 }
 
-.home_banner h2 span:nth-child(2) {
+.home_banner h1 span:nth-child(2) {
     font-size: 7rem;
     line-height: 1;
 }
@@ -67,16 +67,16 @@
         padding: 0;
         align-items: center;
     }
-    .home_banner h2 {
+    .home_banner h1 {
         margin-left: 0;
         line-height: 1;
         margin-top: 5rem;
     }
-    .home_banner h2 span:first-child {
+    .home_banner h1 span:first-child {
         font-size: 10rem;
     }
 
-    .home_banner h2 span:nth-child(2) {
+    .home_banner h1 span:nth-child(2) {
         font-size: 14rem;
         max-width: unset;
     }

@@ -10,7 +10,7 @@ const HomeBanner = () => {
         <div className={styles.home_banner}>
             <div className={styles.content}>
                 <Fade duration={2000} left={true} distance="1.6rem">
-                    <h2><span>Hello.</span> <span>I'm Susie.</span></h2>
+                    <h1><span>Hello.</span> <span>I'm Susie.</span></h1>
                     <p><span>I'm a digital</span> <span>developer.</span></p>
                 </Fade>
                 <Bounce delay={500} duration={1000} bottom={true}>

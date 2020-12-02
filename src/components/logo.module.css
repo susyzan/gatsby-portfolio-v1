@@ -12,8 +12,8 @@
     stroke: var(--primary) !important;
 }
 .logo:hover svg g {
-    fill: var(--secondary) !important;
-    stroke: var(--secondary) !important;
+    fill: var(--text) !important;
+    stroke: var(--text) !important;
 }
 
 @media screen and (--viewport-narrow-min) {

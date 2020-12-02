@@ -45,7 +45,7 @@ const About = ({data}) => {
                 <ContentGrid>
                     <ContentGridItem two={true} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
-                            <h3>Background.</h3>
+                            <h2>Background.</h2>
                             <p>I discovered my love for digital in sunny Australia where l lived for almost a decade.
                                 Over there, I had the chance to team up with brilliant professionals in tech and advertising and create websites, landing pages, web apps, and EDM campaigns for clients like <strong>Queensland Government</strong>, <strong>Sanofi</strong>, <strong>Suncorp</strong> and <strong>Urban Utilities</strong> to name a few.
                             </p>
@@ -81,7 +81,7 @@ const About = ({data}) => {
                     </ContentGridItem>
                     <ContentGridItem two={true} reverse={false} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
-                            <h3>Pretty and accessible.</h3>
+                            <h2>Pretty and accessible.</h2>
                             <p>Later in my digital career - better late than never, hey - I realised that the full potential of
                                 an inclusive digital world is limitless. This thought shifted my whole perception around web
                                 accessibility and universal design.
@@ -94,7 +94,7 @@ const About = ({data}) => {
                     </ContentGridItem>
                     <ContentGridItem two={true} reverse={false} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
-                            <h3>About this portfolio.</h3>
+                            <h2>About this portfolio.</h2>
                             <p>This portfolio is powered by REACT and is built in Gatsby. These pages are hand coded from scratch from my onw design.</p>
                         </Fade>
                     </ContentGridItem>

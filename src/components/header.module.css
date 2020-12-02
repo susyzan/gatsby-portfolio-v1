@@ -36,7 +36,7 @@
     animation-play-state: paused;
 }
 
-.masthead_info h1 {
+.masthead_info .h1 {
     font-size: var(--font-size-default);
     display: inline;
 }
