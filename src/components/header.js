@@ -6,7 +6,7 @@ import Logo from "./logo"
 import MainNav from "./mainnav"
 import style from "./header.module.css"
 
-const Header = ({ headerTitleSm, headerTitle, pageTitle,  menuLinks }) => (
+const Header = ({ headerTitle, pageTitle,  menuLinks }) => (
 
     <header id="site-header" className={style.masthead} role="banner">
         <div className={`content-container-xl ${style.masthead_container}`}>
@@ -19,7 +19,7 @@ const Header = ({ headerTitleSm, headerTitle, pageTitle,  menuLinks }) => (
                     hex="#ff784f"
                 >
                     <h1>
-                        <Logo/>
+                        <Logo />
                         <span className="sr-only">{` ${headerTitle} - ${pageTitle}`}</span>
                     </h1>
                 </AniLink>

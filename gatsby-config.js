@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     description: `Portfolio showcasing my work`,
     headerTitleSm: 'SZ',
-    headerTitle: 'Susanna Zanatta',
+    headerTitle: 'Susanna Zanatta - Digital Developer',
     headerDescription: 'Digital Developer',
     author: `Susanna Zanatta`,
     menuLinks: [

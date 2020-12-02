@@ -44,7 +44,7 @@
 }
 .project_description_image {
     max-width: 100rem;
-    border-radius: .4rem;
+    border-radius: .2rem;
 }
 
 @media screen and (--viewport-narrow-min) {

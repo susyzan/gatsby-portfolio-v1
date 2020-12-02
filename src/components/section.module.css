@@ -1,6 +1,6 @@
 .section {
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     display: grid;
 }

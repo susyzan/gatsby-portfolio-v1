@@ -47,9 +47,6 @@ const Work = ({data}) => {
                         </li>
                     ))}
                 </ul>
-                <div style={{position: 'relative'}}>
-                    <FloatingShapes />
-                </div>
             </Section>
         </Layout>
     )

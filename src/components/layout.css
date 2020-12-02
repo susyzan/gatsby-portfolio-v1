@@ -24,7 +24,7 @@ body {
 
 .main-wrapper {
   display: grid;
-  min-height: 100vh;
+  min-height: 85vh;
   grid-template-rows: 1fr min-content;
   grid-template-columns: 1fr;
   grid-template-areas: 'main' 'footer';
@@ -43,8 +43,12 @@ main {
   grid-template-areas: 'banner' 'content';
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 @media screen and (--viewport-narrow-min) {
+  .main-wrapper {
+    min-height: 100vh;
+  }
   main {
     grid-template-rows: minmax(40vh, auto) min-content;
   }
@@ -140,6 +144,7 @@ a.anim.active:before {
   background-color: var(--primary);
 }
 a.anim:hover:before,
+a.anim:focus:before,
 a.anim.active:before {
   text-decoration: none;
   visibility: visible;
