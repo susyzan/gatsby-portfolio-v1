@@ -8,6 +8,9 @@
     font-size: 2rem;
     line-height: 1.2;
 }
+.client {
+    display: block;
+}
 .employer {
     margin-top: 1rem;
     display: block;
@@ -42,6 +45,10 @@
     color: var(--primary);
     font-size: var(--font-size-small);
 }
+.project_description_image_container {
+    padding: 2.4rem 0;
+}
+
 .project_description_image {
     max-width: 100rem;
     border-radius: .2rem;

@@ -18,12 +18,14 @@ const Header = ({ headerTitle, pageTitle,  menuLinks }) => {
     return (
         <header id="site-header" className={style.masthead} role="banner">
             <div className={`content-container-xl ${style.masthead_container}`}>
-                <div className={style.masthead_info} onClick={changeColor}>
+                <div className={style.masthead_info}>
                     <AniLink
                         paintDrip
                         to="/"
                         duration={0.8}
                         hex={color}
+                        onClick={changeColor}
+                        onKeypress={changeColor}
                     >
                         <div className={style.h1} role="heading" aria-level="1">
                             <Logo/>

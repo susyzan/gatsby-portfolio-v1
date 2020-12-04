@@ -48,6 +48,9 @@ export default ({ data }) => {
                                     <Fade duration={2000} bottom={true} distance="1.6rem">
                                         <p className={`h4 ${styles.intro_copy}`}>
                                             {project.intro}
+                                            {project.client && (
+                                            <span className={styles.client}>{` for ${project.client}`}</span>
+                                            )}
                                             {project.employer && (
                                                     <span className={styles.employer}>@ {project.employer}</span>
                                             )}
@@ -86,16 +89,18 @@ export default ({ data }) => {
                     </ContentGrid>
                     <div className={styles.project_description}>
                         <ContentGrid>
-                            <ContentGridItem two={true}>
-                                <Fade duration={500} bottom={true} distance="1rem">
-                                    <div dangerouslySetInnerHTML={{ __html: html}}  style={{
-                                        paddingTop: `3rem`
-                                    }}/>
-                                </Fade>
-                            </ContentGridItem>
+                            {html && (
+                                <ContentGridItem>
+                                    <Fade duration={500} bottom={true} distance="1rem">
+                                        <div dangerouslySetInnerHTML={{ __html: html}}  style={{
+                                            paddingTop: `3rem`
+                                        }}/>
+                                    </Fade>
+                                </ContentGridItem>
+                            )}
                             {project.imgArray.map((image, i) => (
-                                <ContentGridItem key={`image-${i}`}>
-                                    <figure>
+                                <ContentGridItem key={`image-${i}`} two={(i === 0 && true)}>
+                                    <figure className={styles.project_description_image_container}>
                                         <Img fluid={image.img.childImageSharp.fluid} alt={image.alt} className={styles.project_description_image}/>
                                     </figure>
                                 </ContentGridItem>

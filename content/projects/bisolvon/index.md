@@ -4,10 +4,10 @@ title: Bisolvon
 subtitle: WordPress Theme
 client: Sanofi Australia
 employer: Publicis Worldwide
-tech: ["WordPress", "CSS", "jQuery", "PHP"]
+tech: ["WordPress", "SCSS", "jQuery", "PHP"]
 desktop: bisolvon-desktop.png
 mobile: bisolvon-mobile.png
-intro: Dead simple custom WordPress theme
+intro: Custom WordPress theme
 url: https://www.healthier.qld.gov.au/happy-healthy/
 imgArray:
  - {img: "bisolvon-full-page.png", alt: "What makes you happy? Select three #happyHealthyHabits you like doing."}
@@ -15,5 +15,4 @@ imgArray:
 
 ## Project description
 
-This landing page template was coded from Sketch files and created on top of the existing client's **WordPress** web site.
-The page is built using **Bootstrap** and all the magic happens thanks to **jQuery** and a huge bunch of custom tags.
+This theme was developed from Sketch files provided by the UI designer using JQuery and SCSS.

@@ -1,14 +1,14 @@
 ---
-sort: 100
-title: Assisterhood
-subtitle: Website
-client: Assisterhood
-employer: Publicis Worldwide
-tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP", "Mail Chimp"]
+sort: 99
+title: Arrakis Spice Emporium
+subtitle: E-Commerce Website
+client: 
+employer: TAFE Nsw (academic project)
+tech: ["PHP", "Bootstrap", "MySql"]
 desktop: assisterhood-desktop.png
 mobile: assisterhood-mobile.png
-intro: Custom WordPress theme with Mail Chimp integration 
-url: https://www.assisterhood.com.au
+intro: Custom MVP framework and Bootstrap frontend
+url: http://arrakis.susannazanatta.com/
 imgArray:
  - {img: "assisterhood-full-page.png", alt: "Fullpage screenshot of the Assisterhood homepage for mobile and desktop."}
 ---

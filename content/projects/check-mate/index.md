@@ -7,12 +7,12 @@ employer: Publicis Worldwide
 tech: ["REACT", "Wordpress", "Laravel"]
 desktop: check-mate-desktop.png
 mobile: check-mate-mobile.png
-intro: One page interactive web app
-url: https://www.assisterhood.com.au
+intro: Single page interactive web app
+url: https://crossriverrail.qld.gov.au/my-journey-benefits/
 imgArray:
- - {img: "check-mate-full-page.png", alt: "Full sized desktop and mobile screenshot"}
+ - {img: "check-mate-full-page.png", alt: "Full sized desktop and mobile screenshot of the Check Mate Landing page."}
 ---
 
-## Project description
-
-Custom theme built and tested in no time from PDS design files. The theme is powered by Bootstrap and includes a custom form integrated with MailcChimp. A custom EDM template was also created as part of this project.
+## My role
+React front-end development from design files provided by the UI designer and integration with the API created by the tech lead.
+Train animation by the HTML5 developer. Team effort!
