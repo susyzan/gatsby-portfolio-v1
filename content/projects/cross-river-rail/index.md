@@ -15,4 +15,4 @@ imgArray:
 
 ## My role
 
-Custom theme development from design files provided by the UI designer. The theme uses Bootstrap and custom fields to allow maximum content flexibility.
+Theme development from design files provided by the UI designer. The theme is built Bootstrap and custom fields.

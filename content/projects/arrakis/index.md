@@ -10,7 +10,7 @@ mobile: assisterhood-mobile.png
 intro: Custom MVP framework and Bootstrap frontend
 url: http://arrakis.susannazanatta.com/
 imgArray:
- - {img: "assisterhood-full-page.png", alt: "Fullpage screenshot of the Assisterhood homepage for mobile and desktop."}
+ - {img: "arrakis-full-page.png", alt: "Fullpage screenshot of the Assisterhood homepage for mobile and desktop."}
 ---
 
 ## About this project
