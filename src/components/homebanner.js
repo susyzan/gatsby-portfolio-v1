@@ -18,7 +18,7 @@ const HomeBanner = () => {
                         to="/about"
                         animcolor="#774c60"
                         floating={true}
-                    >tell me more</Button>
+                    >Tell me more</Button>
                 </Bounce>
             </div>
         </div>

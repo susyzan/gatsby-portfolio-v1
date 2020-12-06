@@ -19,11 +19,11 @@ import ContentGrid from "../components/layout/contentgrid"
 import ContentGridItem from "../components/layout/contentgriditem"
 import FloatingShapes from "../components/floatingshapes"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Section from "../components/section"
+import SEO from "../components/seo"
 
 const About = ({data}) => {
-    const pageTitle = "About - Susanna Zanatta"
+    const pageTitle = "About"
     return (
         <Layout pageTitle={pageTitle}>
             {/*remove this line if not using page transition to navigate to this page*/}
@@ -103,7 +103,7 @@ const About = ({data}) => {
                             <Button
                                 to="/work"
                                 floating={true}
-                            >ok, show me your stuff</Button>
+                            >Ok, show me your stuff</Button>
                         </Bounce>
                     </ContentGridItem>
                     {/*<ContentGridItem  classes="image-container">*/}

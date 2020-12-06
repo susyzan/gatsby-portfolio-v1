@@ -25,7 +25,7 @@ const Header = ({ headerTitle, pageTitle,  menuLinks }) => {
                         duration={0.8}
                         hex={color}
                         onClick={changeColor}
-                        onKeypress={changeColor}
+                        onKeyPress={changeColor}
                     >
                         <div className={style.h1} role="heading" aria-level="1">
                             <Logo/>

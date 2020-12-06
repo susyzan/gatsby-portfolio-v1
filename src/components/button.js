@@ -1,6 +1,5 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import {Link} from "gatsby"
 
 import styles from "./button.module.css"
 
@@ -17,14 +16,15 @@ const Button = ({to, classes, floating, children, external, ariaLabel}) => {
         )
     } else {
         return (
-            <Link
-            to={to}
+            <a
+            href={to}
             className={`${classes} ${styles.button} ${floating ? styles.floating : ''}`}
             target="_blank"
-            ariaLabel={ariaLabel}
+            rel="noreferrer"
+            aria-label={ariaLabel}
             >
                 {children}
-            </Link>
+            </a>
         )
     }
 

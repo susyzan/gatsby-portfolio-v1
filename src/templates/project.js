@@ -21,12 +21,12 @@ import styles from "./project.module.css"
 export default ({ data }) => {
     const project = data.markdownRemark.frontmatter
     const html = data.markdownRemark.html
-    const pageTitle = `${project.title} - Susanna Zanatta`;
+    const pageTitle = `${project.title}`;
     return (
         <Layout pageTitle={pageTitle}>
             {/*remove this line if not using page transition to navigate to this page*/}
             <RouteAnnouncerHack title={pageTitle}/>
-            <SEO title={pageTitle}/>
+            <SEO title="Work"/>
             <article>
                 <Section id="banner" bg="bg_transparent">
                     <Banner>

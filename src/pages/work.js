@@ -19,7 +19,7 @@ import SEO from "../components/seo"
 import styles from "./work.module.css"
 
 const Work = ({data}) => {
-    const pageTitle = "Work - Susanna Zanatta";
+    const pageTitle = "Work";
     return (
         <Layout pageTitle={pageTitle}>
             {/*remove this line if not using page transition to navigate to this page*/}
