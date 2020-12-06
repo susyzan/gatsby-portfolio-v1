@@ -5,8 +5,10 @@ subtitle: Corporate Website
 client: Cross River Rail - Queensland Government
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP"]
-desktop: cross-river-rail-desktop.png
-mobile: cross-river-rail-mobile.png
+imgOne: cross-river-rail-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: cross-river-rail-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Wordpress site and custom theme
 url: https://crossriverrail.qld.gov.au/
 imgArray:

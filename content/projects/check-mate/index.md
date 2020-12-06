@@ -5,8 +5,10 @@ subtitle: Web App - Landing Page
 client: Cross River Rail - Queensland Government
 employer: Publicis Worldwide
 tech: ["REACT", "Wordpress", "Laravel"]
-desktop: check-mate-desktop.png
-mobile: check-mate-mobile.png
+imgOne: check-mate-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: check-mate-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Single page interactive web app
 url: https://crossriverrail.qld.gov.au/my-journey-benefits/
 imgArray:

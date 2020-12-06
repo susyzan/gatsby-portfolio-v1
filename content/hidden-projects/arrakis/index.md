@@ -5,8 +5,10 @@ subtitle: E-Commerce Website
 client: 
 employer: TAFE Nsw (academic project)
 tech: ["PHP", "Bootstrap", "MySql"]
-desktop: assisterhood-desktop.png
-mobile: assisterhood-mobile.png
+imgOne: assisterhood-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: assisterhood-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Custom MVP framework and Bootstrap frontend
 url: http://arrakis.susannazanatta.com/
 imgArray:

@@ -72,8 +72,8 @@ export default ({ data }) => {
                                 </ContentGridItem>
                                 <ContentGridItem full={true}>
                                     <Fade duration={2000} left={true} distance="1.6rem">
-                                        <figure className={styles.desktop_img_container}>
-                                            <Img fluid={project.desktop.childImageSharp.fluid} alt="Desktop screenshot"/>
+                                        <figure className={styles.img_one_container}>
+                                            <Img fluid={project.imgOne.childImageSharp.fluid} alt={project.imgOneAlt}/>
                                         </figure>
                                     </Fade>
                                 </ContentGridItem>
@@ -81,8 +81,8 @@ export default ({ data }) => {
                         </ContentGridItem>
                         <ContentGridItem  classes="center">
                             <Fade duration={2000} right={true} distance="1.6rem">
-                                <figure className={styles.mobile_img_container}>
-                                    <Img fluid={project.mobile.childImageSharp.fluid} alt="Mobile screenshot"/>
+                                <figure className={styles.img_two_container}>
+                                    <Img fluid={project.imgTwo.childImageSharp.fluid} alt={project.imgTwoAlt}/>
                                 </figure>
                             </Fade>
                         </ContentGridItem>
@@ -139,20 +139,22 @@ export const query = graphql`
                     }
                     alt
                 }
-                desktop {
+                imgOne {
                     childImageSharp {
                         fluid(maxWidth: 2000) {
                             ...GatsbyImageSharpFluid
                         }
                     }
                 }
-                mobile {
+                imgOneAlt
+                imgTwo {
                     childImageSharp {
                         fluid(maxWidth: 2000) {
                             ...GatsbyImageSharpFluid
                         }
                     }
                 }
+                imgTwoAlt
                 intro
                 url
             }

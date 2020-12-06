@@ -5,14 +5,16 @@ subtitle: WordPress Theme
 client: Sanofi Australia
 employer: Publicis Worldwide
 tech: ["WordPress", "SCSS", "jQuery", "PHP"]
-desktop: bisolvon-desktop.png
-mobile: bisolvon-mobile.png
+imgOne: bisolvon-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: bisolvon-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Custom WordPress theme
 url: https://www.healthier.qld.gov.au/happy-healthy/
 imgArray:
- - {img: "bisolvon-full-page.png", alt: "What makes you happy? Select three #happyHealthyHabits you like doing."}
+ - {img: "bisolvon-full-page.png", alt: "Full page screenshot of the Bisolvon homepage on mobile and desktop."}
 ---
 
-## Project description
+## My role
 
-This theme was developed from Sketch files provided by the UI designer using JQuery and SCSS.
+Theme development from Sketch files provided by the UI designer using JQuery, SCSS and a custom-made css grid.

@@ -2,11 +2,13 @@
 sort: 500
 title: Healthy Habit Selector
 subtitle: Landing Page
-client: Queensland Government - Health Dep
+client: Queensland Government - Health Department
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Less", "jQuery", "PHP"]
-desktop: healthy-habit-selector-desktop.png
-mobile: healthy-habit-selector-mobile.png
+imgOne: healthy-habit-selector-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: healthy-habit-selector-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Interactive landing page
 url: https://www.healthier.qld.gov.au/happy-healthy/
 imgArray:

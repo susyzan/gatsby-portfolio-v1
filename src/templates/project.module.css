@@ -18,11 +18,11 @@
     font-family: var(--body-font);
     font-size: var(--font-size-small);
 }
-.mobile_img_container {
+.img_two_container {
     padding: 2rem 0;
     height: auto;
 }
-.desktop_img_container {
+.img_one_container {
     padding: 0;
     height: auto;
 }
@@ -62,10 +62,10 @@
     .tag_list_container {
         padding: 1rem 0;
     }
-    .desktop_img_container {
+    .img_one_container {
         max-width: 80%;
     }
-    .mobile_img_container {
+    .img_two_container {
         padding: 2rem 0 2rem 2rem;
         max-width: 30rem;
         height: auto;

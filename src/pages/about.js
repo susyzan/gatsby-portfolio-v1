@@ -95,7 +95,7 @@ const About = ({data}) => {
                     <ContentGridItem two={true} reverse={false} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h2>About this portfolio.</h2>
-                            <p>This portfolio is powered by REACT and is built in Gatsby. These pages are hand coded from scratch from my onw design.</p>
+                            <p>This portfolio is powered by REACT and is built in Gatsby. These pages are hand coded from scratch from my own design.</p>
                         </Fade>
                     </ContentGridItem>
                     <ContentGridItem two={true}>

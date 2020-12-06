@@ -5,8 +5,10 @@ subtitle: Website
 client: Assisterhood
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP", "Mail Chimp"]
-desktop: assisterhood-desktop.png
-mobile: assisterhood-mobile.png
+imgOne: assisterhood-desktop.png
+imgOneAlt: Desktop screenshot
+imgTwo: assisterhood-mobile.png
+imgTwoAlt: Mobile screeshot
 intro: Custom WordPress theme with Mail Chimp integration 
 url: https://www.assisterhood.com.au
 imgArray:
