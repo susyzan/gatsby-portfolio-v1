@@ -6,9 +6,9 @@ client: Cross River Rail - Queensland Government
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP"]
 imgOne: cross-river-rail-desktop.png
-imgOneAlt: Desktop screenshot
+imgOneAlt: Mockup of the website on a laptop
 imgTwo: cross-river-rail-mobile.png
-imgTwoAlt: Mobile screeshot
+imgTwoAlt: Mockup of the website on a smartphone
 intro: Wordpress site and custom theme
 url: https://crossriverrail.qld.gov.au/
 imgArray:
@@ -17,4 +17,4 @@ imgArray:
 
 ## My role
 
-Theme development from design files provided by the UI designer. The theme is built Bootstrap and custom fields.
+Theme development from design files provided by the UI designer. The theme is built with Bootstrap and custom fields.

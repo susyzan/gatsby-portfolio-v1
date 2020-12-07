@@ -6,9 +6,9 @@ client: StreetsSmarts - Queensland Government
 employer: Publicis Worldwide
 tech: ["Laravel", "BEM CSS", "Sass", "jQuery"]
 imgOne: drive-smarter-not-faster-desktop.png
-imgOneAlt: Desktop screenshot
+imgOneAlt: Mockup of the website on a laptop
 imgTwo: drive-smarter-not-faster-mobile.png
-imgTwoAlt: Mobile screeshot
+imgTwoAlt: Mockup of the website on a smartphone
 intro: Campaign landing pages
 url: https://streetsmarts.initiatives.qld.gov.au/speeding/drive-smarter-not-faster
 imgArray:

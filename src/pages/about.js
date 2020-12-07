@@ -46,10 +46,10 @@ const About = ({data}) => {
                     <ContentGridItem two={true} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h2>Background.</h2>
-                            <p>I discovered my love for digital in sunny Australia where l lived for almost a decade.
-                                Over there, I had the chance to team up with brilliant professionals in tech and advertising and create websites, landing pages, web apps, and EDM campaigns for clients like <strong>Queensland Government</strong>, <strong>Sanofi</strong>, <strong>Suncorp</strong> and <strong>Urban Utilities</strong> to name a few.
+                            <p>I discovered my love for digital in sunny Australia, where l lived for almost a decade.
+                                Over there, I had the chance to team up with brilliant professionals in tech and advertising and create websites, landing pages, web apps, and EDM campaigns for clients like <strong>Queensland Government</strong>, <strong>Sanofi</strong> and <strong>Suncorp</strong> to name a few.
                             </p>
-                            <p>Whilst making web pages look sexy is what I enjoy the most, I love writing good semantic markup and working with CSS, Sass, Js, Vue, React and PHP. However, I am always happy to dive into something I have never done before.</p>
+                            <p>Whilst making web pages look sexy is what I enjoy the most, I love writing semantic markup and working with CSS, Sass, Js, Vue, React and PHP. However, I am always happy to dive into something I have never done before.</p>
 
                             <div className="tech">
                                 <span>
@@ -86,16 +86,15 @@ const About = ({data}) => {
                                 an inclusive digital world is limitless. This thought shifted my whole perception around web
                                 accessibility and universal design.
                             </p>
-                            <p>Whilst I aim of making my work as accessible as possible, I also want spread the message
-                                that <strong>accessibility and universal design are drivers for innovation</strong> and tools to achieve an
-                                inclusive, better, and happier society.
+                            <p>Whilst my goal is to make my work as accessible as possible, I also want to spread the message that <strong>accessibility and universal design are drivers for innovation</strong> and tools to achieve an
+                                inclusive and happier society.
                             </p>
                         </Fade>
                     </ContentGridItem>
                     <ContentGridItem two={true} reverse={false} classes="about_text_block">
                         <Fade duration={2000} bottom={true} distance="1.6rem">
                             <h2>About this portfolio.</h2>
-                            <p>This portfolio is powered by REACT and is built in Gatsby. These pages are hand coded from scratch from my own design.</p>
+                            <p>This portfolio is powered by REACT and is built with Gatsby. These pages are hand-coded from scratch from my own design.</p>
                         </Fade>
                     </ContentGridItem>
                     <ContentGridItem two={true}>
@@ -106,14 +105,6 @@ const About = ({data}) => {
                             >Ok, show me your stuff</Button>
                         </Bounce>
                     </ContentGridItem>
-                    {/*<ContentGridItem  classes="image-container">*/}
-                    {/*    <Bounce duration={800} delay={500} bottom={true}>*/}
-                    {/*        <Img fluid={data.firstImage.childImageSharp.fluid} alt="Mixed Tape 1978" className="floating-image"/>*/}
-                    {/*    </Bounce>*/}
-                    {/*    <div style={{position: 'relative'}}>*/}
-                    {/*        <FloatingShapes />*/}
-                    {/*    </div>*/}
-                    {/*</ContentGridItem>*/}
                 </ContentGrid>
             </Section>
         </Layout>

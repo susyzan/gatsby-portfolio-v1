@@ -6,9 +6,9 @@ client: Cross River Rail - Queensland Government
 employer: Publicis Worldwide
 tech: ["REACT", "Wordpress", "Laravel"]
 imgOne: check-mate-desktop.png
-imgOneAlt: Desktop screenshot
+imgOneAlt: Mockup of the website on a laptop
 imgTwo: check-mate-mobile.png
-imgTwoAlt: Mobile screeshot
+imgTwoAlt: Mockup of the website on a smartphone
 intro: Single page interactive web app
 url: https://crossriverrail.qld.gov.au/my-journey-benefits/
 imgArray:

@@ -6,9 +6,9 @@ client: Queensland Government - Health Department
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Less", "jQuery", "PHP"]
 imgOne: healthy-habit-selector-desktop.png
-imgOneAlt: Desktop screenshot
+imgOneAlt: Mockup of the website on a laptop
 imgTwo: healthy-habit-selector-mobile.png
-imgTwoAlt: Mobile screeshot
+imgTwoAlt: Mockup of the website on a smartphone
 intro: Interactive landing page
 url: https://www.healthier.qld.gov.au/happy-healthy/
 imgArray:

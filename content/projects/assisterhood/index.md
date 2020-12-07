@@ -6,9 +6,9 @@ client: Assisterhood
 employer: Publicis Worldwide
 tech: ["WordPress", "Bootstrap", "Scss", "jQuery", "PHP", "Mail Chimp"]
 imgOne: assisterhood-desktop.png
-imgOneAlt: Desktop screenshot
+imgOneAlt: Mockup of the website on a laptop
 imgTwo: assisterhood-mobile.png
-imgTwoAlt: Mobile screeshot
+imgTwoAlt: Mockup of the website on a smartphone
 intro: Custom WordPress theme with Mail Chimp integration 
 url: https://www.assisterhood.com.au
 imgArray:
@@ -17,4 +17,4 @@ imgArray:
 
 ## About this project
 
-Custom theme built and tested in no time from PSD files provide by the designer. The theme is powered by Bootstrap and includes a custom form integrated with MailcChimp. A custom EDM template was also created as part of this project.
+Custom theme built from PSD files provided by the designer. The theme is powered by Bootstrap and includes a custom form integrated with MailcChimp. A custom EDM template was also created as part of this project.
