@@ -1,0 +1,73 @@
+.h2 {
+    font-size: 6rem;
+}
+.intro_copy {
+    margin-bottom: 0;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.client {
+    display: block;
+}
+.employer {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 500;
+    font-family: var(--body-font);
+    font-size: var(--font-size-small);
+}
+.img_two_container {
+    padding: 2rem 0;
+    height: auto;
+}
+.img_one_container {
+    padding: 0;
+    height: auto;
+}
+.tag_list_container {
+    padding: .5rem 0;
+}
+
+.tag_list {
+    display: block;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.tag_list_item {
+    display: inline-block;
+    padding: 0;
+    background-color: var(--bg-primary);
+    border-radius: .4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    color: var(--primary);
+    font-size: var(--font-size-small);
+}
+.project_description_image_container {
+    padding: 2.4rem 0;
+}
+
+.project_description_image {
+    max-width: 100rem;
+    border-radius: .2rem;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .intro_copy {
+        font-size: var(--font-size-large);
+        line-height: 1.5;
+    }
+    .tag_list_container {
+        padding: 1rem 0;
+    }
+    .img_one_container {
+        max-width: 80%;
+    }
+    .img_two_container {
+        padding: 2rem 0 2rem 2rem;
+        max-width: 30rem;
+        height: auto;
+    }
+}

@@ -3,10 +3,9 @@
     width: 100%;
     top: 0;
     z-index: 10;
-    font-size: 84%;
+    font-size: 1rem;
     text-align: center;
-    border-bottom: solid 1px var(--brink-pink);
-    background-color: hsla(0, 0%, 100%, .85);
+    background: linear-gradient(180deg, rgba(25,29,35,1) 20%, rgba(25,29,35,0) 100%);
 }
 
 .masthead_container {
@@ -17,62 +16,59 @@
 
 .masthead_info {
     grid-area: logo;
-    padding: 0.5rem;
-    color: var(--rich-black);
+    padding: 0.2rem 0;
+    color: var(--primary);
     text-align: left;
 }
 
 .masthead_info a {
     color: inherit;
     text-decoration: none;
-    padding: .5rem 0 .5rem 0;
+    position: relative;
+    padding: 1.5rem;
     display: inline-block;
+    font-size: 2.2rem;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.masthead_info a:hover {
+    animation-play-state: paused;
+}
+
+.masthead_info .h1 {
+    font-size: var(--font-size-default);
+    display: inline;
 }
 
 .site_title_sm {
     text-align: left;
-    font-size: 120%;
+    font-size: 2.6rem;
+    line-height: 1.5;
     font-family: var(--highlight-font);
-    font-weight: normal;
+    font-weight: 900;
 }
 
-.site_title {
-    display: none;
-    font-size: 120%;
-    font-family: var(--highlight-font);
-    font-weight: normal;
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(5px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
 
-.site_description {
-    display: none;
-    font-size: 80%;
-    font-family: var(--body-font);
-    font-weight: 700;
-}
-
-.site_logo {
-    margin: 1rem auto;
-    max-width: 6rem;
-}
 @media screen and (--viewport-narrow-min) {
     .masthead {
         padding: 0;
-        -webkit-transition: background-color 0.3s ease-out;
-        -moz-transition: background-color 0.3s ease-out;
-        -o-transition: background-color 0.3s ease-out;
-        transition: background-color 0.5s ease-out;
     }
-
-    .masthead:hover, .masthead:focus {
-        background-color: hsla(0, 0%, 100%, .98);
+    .masthead_info {
+        padding: 0.5rem .8rem 0 .8rem;
     }
-
     .masthead_info a {
-        padding: 0.5rem;
+        padding: 1rem;
     }
-
-    /*.site_logo {*/
-    /*    grid-row: span 2;*/
-    /*    margin: inherit;*/
-    /*}*/
 }

@@ -2,13 +2,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import SkipLinks from "./skiplinks"
-import Footer from "./footer"
 import "./layout.css"
+
+import Header from "./header"
+import Footer from "./footer"
+import SkipLinks from "./skiplinks"
+
 import PageTransition from "gatsby-v2-plugin-page-transitions";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, pageTitle }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -30,7 +32,7 @@ const Layout = ({ children }) => {
     <>
         <SkipLinks/>
             <Header
-                siteTitle={data.site.siteMetadata.title}
+                pageTitle={pageTitle}
                 headerTitleSm={data.site.siteMetadata.headerTitleSm}
                 headerTitle={data.site.siteMetadata.headerTitle}
                 headerDescription={data.site.siteMetadata.headerDescription}
@@ -42,7 +44,7 @@ const Layout = ({ children }) => {
                         {children}
                     </PageTransition>
                 </main>
-                <Footer menuLinks={data.site.siteMetadata.menuLinks}/>
+                <Footer />
             </div>
     </>
   )
@@ -50,6 +52,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+    pageTitle: PropTypes.string
 }
 
 export default Layout

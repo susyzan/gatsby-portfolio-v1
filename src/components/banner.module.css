@@ -1,0 +1,22 @@
+.banner {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.content {
+    padding: 2.5rem 0 0 0;
+    text-align: left;
+    align-self: center;
+    z-index: 1;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .banner {
+        min-height: 30rem;
+        align-items: center;
+    }
+    .content {
+        padding: 0;
+    }
+}

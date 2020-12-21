@@ -1,14 +1,17 @@
 import React from "react"
 import styles from "./footer.module.css"
-import FooterNav from "./footernav"
+import Contact from "./contact";
 
 const Footer = ({menuLinks}) => {
     return (
         <footer id="footer" className={styles.footer}>
-            <FooterNav menuLinks={menuLinks}/>
-            <div>
-                © {new Date().getFullYear()}, Built with
-                {` `}
+            <div className="content-container-xl">
+                <div className={styles.copy}>
+                    <span>
+                        ©{new Date().getFullYear()} Susanna Zanatta
+                    </span>
+                    <Contact/>
+                </div>
             </div>
         </footer>
     )

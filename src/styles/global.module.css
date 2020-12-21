@@ -1,94 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 :root {
   /* Fonts */
-  --sans-serif: 'Raleway', Helvetica, Arial, sans-serif;
-  --serif: 'Playfair Display', serif;
-  --mono: 'Monoton', monospace;
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+  --font-size-small: 1.4rem; /* 14px */
+  --font-size-default: 1.6rem; /* 16px */
+  --font-size-large: 2.4rem; /* 24px */
+  --base-line-height: 1.5;
+  --sans-serif: 'Lato', Helvetica, Arial, sans-serif;
+  --highlight-font: 'Montserrat', Helvetica, Arial, sans-serif;
   --primary-font: var(--sans-serif);
-  --highlight-font: var(--mono);
   --body-font: var(--primary-font);
-  --heading-font: var(--sans-serif);
+  --heading-font: var(--highlight-font);
 
   --font-light: 300;
   --font-normal: 400;
-  --font-semibold: 500;
+  --font-medium: 500;
+  --font-semibold: 600;
   --font-bold: 700;
   --font-black: 800;
-
-  --base-font-size: 1rem;
-  --base-line-height: 1.5;
+  --font-x-black: 900;
 
   /* Colours */
   --cultured: hsl(0, 0%, 96%);
   --cultured-alpha: hsla(0, 0%, 96%, .95);
-  --gainsboro: hsl(0, 0%, 87%);
-  --brink-pink: hsl(346, 91%, 65%);
-  --cornsilk: hsl(48, 100%, 95%);
-  --cornsilk-alpha: hsla(49, 100%, 95%, .5);
-  --middle-blue-green: hsl(173, 55%, 74%);
-  --middle-blue-green-alpha: hsla(173, 55%, 74%, .5);
-  --independence: hsl(258, 10%, 38%);
+  --cornsilk: hsl(60, 39%, 94%);
+  --cornsilk-alpha: hsla(60, 39%, 94%, .5);
+
+  --jasmine: hsl(47, 100%, 75%);
+  --jasmine-alpha: hsla(47, 100%, 75%, .8);
+  --outrageous-orange: hsl(14, 100%, 65%);
+  --outrageous-orange-alpha: hsla(14, 100%, 65%, .8);
+  --baby-pink: hsl(352, 58%, 84%);
+  --baby-pink-alpha: hsla(352, 58%, 84%,.8);
+  --green-sheen: hsl(168, 25%, 58%);
+  --green-sheen-alpha: hsla(168, 25%, 58%, .5);
 
   /* Grays */
   --white: 	hsl(0, 0%, 100%);
   --light-gray: var(--cultured);
-  --mid-gray: 	hsl(0, 0%, 76%);
-  --dark-gray: hsl(0, 0%, 52%);
-  --darker-gray: hsl(0, 0%, 25%);
-  --darkest-gray: hsl(0, 0%, 8%);
+  --darkest-gray: hsl(220, 15%, 12%);
   --rich-black: var(--darkest-gray);
   --black: hsl(0, 0%, 0%);
 
   /* Theme */
-  --primary: var(--brink-pink);
-  --secondary: var(--middle-blue-green);
-  --tertiary: var(--independence);
+  --primary: var(--jasmine);
+  --primary-alpha: var(--jasmine-alpha);
+  --secondary: var(--baby-pink);
+  --tertiary: var(--baby-pink);
+  --tertiary-alpha: var(--baby-pink-alpha);
   --quarternary: var(--cornsilk);
-  --bg-primary: var(--white);
-  --bg-secondary: var(--independence);
+  --bg-primary: var(--darkest-gray);
+  --bg-primary-alpha: hsla(220, 15%, 8%,.8);
+  --bg-secondary: var(--tertiary);
+  --bg-secondary-alpha: var(--tertiary-alpha);
   --bg-tertiary: var(--cornsilk);
-  --text: var(--darkest-gray);
-  --focus-outline: var(--brink-pink);
-
-  /*--primary: var(--brink-pink);*/
-  /*--secondary: var(--light-gray);*/
-  /*--tertiary: var(--dark-gray);*/
-  /*--quarternary: var(--mid-gray);*/
-  /*--bg-primary: var(--white);*/
-  /*--bg-secondary: var(--dark-gray);*/
-  /*--bg-tertiary: var(--light-gray);*/
-  /*--text: var(--darkest-gray);*/
-  /*--focus-outline: var(--brink-pink);*/
-
-  --bg-gradient: linear-gradient(9deg, var(--middle-blue-green-alpha) 0%, hsl(0, 0%, 100%) 100%);
-  /*--shape-gradient: linear-gradient(45deg, hsla(172, 56%, 80%, .5) 0%, hsla(172, 56%, 95%, .5) 100%);*/
-
-  /*--bg-gradient: linear-gradient(0deg, var(--mid-gray) 0%, hsla(var(--white)) 100%);*/
-  --shape-gradient: linear-gradient(var(--dark-gray) 0%, var(--mid-gray) 100%);
-
-  --mod-light: 96%;
-  --mod-medium: 50%;
-  --mod-dark: 20%;
-  --main-bg-light: hsl(0, 0%, var(--mod-light));
-  --main-bg-medium: hsl(0, 0%, var(--mod-medium));
-  --main-bg-dark: hsl(0, 0%, var(--mod-dark));
-
-  --boxShadow: 0px 1px 1px 0px rgba(0,0,0,0.03);
-  --padding: 1rem;
+  --text: var(--cornsilk);
+  --text-alpha: var(--cornsilk-alpha);
+  --focus-outline: var(--primary);
 
   /* Sizes and widths */
-  --content-w-xwide: 80rem;
-  --content-w-wide: 70rem;
-  --content-w-regular: 60rem;
-  --content-w-narrow: 40rem;
+  --content-w-xwide: 1600px;
+  --content-w-wide: 1200px;
+  --content-w-regular: 1000px;
+  --content-w-narrow: 720px;
 
 }
+@media screen and (--viewport-wide) {
+  :root {
+    --font-size-small: 1.6rem; /* 14px */
+    --font-size-default: 1.8rem; /* 16px */
+    --font-size-large: 2.6rem; /* 24px */
+    --base-line-height: 1.6;
+  }
+}
 
-@custom-media --viewport-narrow-max (max-width: 40rem);
-@custom-media --viewport-narrow-min (min-width: 40rem);
-@custom-media --viewport-wide (min-width: 60rem);
+@custom-media --viewport-narrow-max (max-width: 767rem);
+@custom-media --viewport-narrow-min (min-width: 768px);
+@custom-media --viewport-wide (min-width: 1024px);

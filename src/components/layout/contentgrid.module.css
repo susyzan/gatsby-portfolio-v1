@@ -1,0 +1,22 @@
+.content_grid {
+    display: grid;
+    width: 100%;
+    margin: 0 auto 3rem auto;
+    grid-template-columns: 1fr;
+    grid-gap: 1.6rem;
+    grid-auto-flow: dense;
+}
+.no_gap {
+    grid-gap: 0;
+}
+
+.no_margin {
+    margin: 0 auto;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .content_grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+}

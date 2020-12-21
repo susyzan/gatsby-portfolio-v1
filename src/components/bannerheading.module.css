@@ -1,0 +1,21 @@
+.heading {
+    word-wrap: break-word;
+    font-family: var(--highlight-font);
+    color: var(--primary);
+    text-transform: lowercase;
+    margin-right: 1.6rem;
+    padding-top: 6rem;
+}
+
+.large {
+    font-size: 6rem;
+}
+
+@media screen and (--viewport-narrow-min) {
+    .heading {
+        padding-top: 0;
+    }
+    .large {
+        font-size: 10rem;
+    }
+}

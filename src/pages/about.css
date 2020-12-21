@@ -1,0 +1,49 @@
+.about_text_block {
+   margin-bottom: 3rem;
+}
+
+.image-container {
+    align-self: center;
+}
+
+.tech {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.tech span {
+    font-size: 3.5rem;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    position: relative;
+}
+.tech span svg {
+    animation: float 5s ease-in-out infinite;
+}
+.tech span:nth-child(2) svg {
+    animation: float 6s ease-in-out infinite;
+}
+.tech span:nth-child(4) svg {
+    animation: float 4s ease-in-out infinite;
+}
+.tech span:nth-child(6) svg {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-5px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@media screen and (--viewport-narrow-min) {
+    .about_text_block {
+        margin-bottom: 4rem;
+    }
+}

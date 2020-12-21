@@ -18,11 +18,6 @@ ol[class] {
 
 /* Remove default margin */
 body,
-h1,
-h2,
-h3,
-h4,
-p,
 ul[class],
 ol[class],
 li,
@@ -36,10 +31,15 @@ dd {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+}
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

@@ -42,7 +42,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: 'Susanna Zanatta',
         },
         {
           property: `og:description`,
